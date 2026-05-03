@@ -1,0 +1,14 @@
+{
+  "id": 1140,
+  "slug": "problem-solved",
+  "title": "Problem Solved",
+  "date": "2007-06-12T13:50:53.000Z",
+  "excerpt": "",
+  "content": "The language error during the past few days has something to do with my importing of the database backup. I have to go back several days to in order to retrieve a clean copy of the blog data.\n\nProblem's gone now. Lucky me.\n\nGood thing I'm a backup freak. --\"\n\n(The problem has something to do with importing UTF-8 data over non-UTF-8 database connection, I believe. By the way, it's all began when I want to try out the beta of MT4. It was really an unwise decision to try a beta software on actual data. Hehehehe)\n\nWordPress has nothing to do with any of this. I just feel .. adventurous. :P\n\n(Actually, I'm planning to use WordPress for to run the company's website. So I decide to get to know it in detail first.)",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "inside macsf.net"
+  ]
+}

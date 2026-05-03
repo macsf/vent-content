@@ -1,0 +1,16 @@
+{
+  "id": 5120,
+  "slug": "magento-search-for-products-by-sku-wildcard-and-list-the-stock",
+  "title": "Magento : Search for products by SKU (wildcard) and list the stock",
+  "date": "2018-02-06T15:27:32.000Z",
+  "excerpt": "",
+  "content": "<pre class=\"lang:default decode:true \" title=\"Magento : Search for products by SKU (wildcard) and list the stock\" data-url=\"https://gist.githubusercontent.com/macsf/bb58f7d0be05352af1b78fc1c49a2acf/raw/07980855be3ce4115014a90e7613507f4eafbaec/magento-sku-search-get-stock.php\"></pre>\r\n&nbsp;",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "PHP",
+    "programming",
+    "PoC"
+  ]
+}

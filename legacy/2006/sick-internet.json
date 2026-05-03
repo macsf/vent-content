@@ -1,0 +1,12 @@
+{
+  "id": 1053,
+  "slug": "sick-internet",
+  "title": "Sick Internet",
+  "date": "2006-12-05T23:49:05.000Z",
+  "excerpt": "",
+  "content": "The Internet has been sick for about a week already. It's all happened after the earthquake in Taiwan (Dec 27) which cause the underwater cable, the backbone, to be broken. And the round-trip delay time ([RTT](http://en.wikipedia.org/wiki/Round-trip_delay_time)) graphs has gone up, way up. Obviously, these graphs read \"lower is better\".\n\ngoogle.com\n![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2006/12/mrtg/ping.google-week.png)\n\nyahoo.com\n![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2006/12/mrtg/ping.yahoocom-week.png)\n\nmacsf.net\n![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2006/12/mrtg/ping.macsf-week.png)\n\nfinalpiece.net\n![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2006/12/mrtg/ping.finalpiecenet-week.png)\n\nUnfortunately, the route to finalpiece's online server was pretty much blocked during the last couple days of work. Good, I guess. I got new year break early. :P\n\nI know this shouldn't be the last post of 2006 but I'll have to make do with it.\n\nAnyway ...\n\nI'd like to wish you all a wonderful and prosperous 2007.\n\nHappy New Year!",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": []
+}

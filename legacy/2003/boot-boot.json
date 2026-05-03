@@ -1,0 +1,14 @@
+{
+  "id": 668,
+  "slug": "boot-boot",
+  "title": "Boot Boot!",
+  "date": "2003-11-11T16:58:33.000Z",
+  "excerpt": "",
+  "content": "Note to self: NEVER press Shift-Ctrl-Option-Power together  %(rem)meaning: at the same time%  on the iBook again. It resets the power setting (or something of that sort), turn off the machine immediately  **-- without warning!**  Turn it on again and the date is reset to 1/1/1970. :P\n\n... SO CRUEL!  %(me)I should know about this one but, oh well, I do forget!%\n\nAnyway, I have to enter this entry directly to MySQL because TBOX backend is offline for the moment. Guess I have another excuse not to write something for a little while. :)",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "Apple"
+  ]
+}

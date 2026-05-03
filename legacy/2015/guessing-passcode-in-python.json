@@ -1,0 +1,17 @@
+{
+  "id": 4607,
+  "slug": "guessing-passcode-in-python",
+  "title": "Guessing Passcode in Python",
+  "date": "2015-12-17T15:06:33.000Z",
+  "excerpt": "",
+  "content": "Same thing as yesterday, written in Python.\r\n\r\n<pre class=\"lang:python title:passcode_guess\">\r\nfrom __future__ import print_function, division\r\n\r\n\r\ndef zpad(num, length):\r\n    return str(num).zfill(length)\r\n\r\n\r\ndef possibilities(length):\r\n    return [zpad(n, length) for n in range(int('9' * length))]\r\n\r\n\r\ndef main():\r\n    the_code = raw_input(\"Please give me the code to guess (integer only): \")\r\n\r\n    code_digits = len(the_code)\r\n    code_matched = ''\r\n\r\n    print(\"The code is {} digits long.\".format(code_digits))\r\n    print('Begin guessing ...')\r\n\r\n    # check basics\r\n    guessed = []\r\n    for n in range(10):\r\n        guess = str(n) * code_digits\r\n        guessed.append(guess)\r\n\r\n        if guess == the_code:\r\n            code_matched = guess\r\n            break\r\n\r\n    # now brute force\r\n    if len(code_matched) == 0:\r\n\r\n        # create array of all possibilities\r\n        possibles = [n for n in possibilities(code_digits) if n not in guessed]\r\n\r\n        for guess in possibles:\r\n            if guess == the_code:\r\n                code_matched = guess\r\n                break\r\n\r\n    if len(code_matched) > 0:\r\n        print(\"The code is {}. Right?\".format(code_matched))\r\n    else:\r\n        print(\"I can't find your code. Are you cheating?\")\r\n\r\n\r\nif __name__ == \"__main__\":\r\n    main()\r\n</pre>\r\n\r\nI've been bored lately.",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "coding",
+    "programming",
+    "nerdy life",
+    "python"
+  ]
+}

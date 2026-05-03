@@ -1,0 +1,17 @@
+{
+  "id": 4601,
+  "slug": "guessing-passcode-in-ruby",
+  "title": "Guessing Passcode in Ruby",
+  "date": "2015-12-16T03:05:29.000Z",
+  "excerpt": "",
+  "content": "I'm sure there are better algorithms. But welp ...\r\n\r\n<pre class=\"lang:ruby title:passcode_guess\">\r\nprint 'Please give me the code to guess (integer only): '\r\nthe_code = gets.chomp\r\n\r\ncode_digits = the_code.length\r\ncode_matched = ''\r\n\r\nputs \"The code is #{code_digits} digits long.\"\r\nputs 'Begin guessing ...'\r\n\r\n# check basics\r\nguessed = []\r\n(0..9).each do |n|\r\n  guess = \"#{n}\" * code_digits\r\n  guessed.push(guess)\r\n  if guess == the_code\r\n    code_matched = guess\r\n    break\r\n  end\r\nend\r\n\r\n# now brute force\r\nif code_matched.length == 0\r\n\r\n  # create array of all possibilites\r\n  # ... except the basic guessed\r\n  last_code = '9' * code_digits\r\n  possibles = (0..last_code.to_i).collect { |item| item.to_s.rjust(code_digits, '0') } - guessed\r\n\r\n  possibles.each do |guess|\r\n    if guess == the_code\r\n      code_matched = guess\r\n      break\r\n    end\r\n  end\r\n\r\nend\r\n\r\n# Should matched something or the user is cheating.\r\nif code_matched.length > 0\r\n  puts \"The code is #{code_matched}. Right?\"\r\nelse\r\n  puts \"I can't find your code. Are you cheating?\"\r\nend\r\n</pre>\r\n\r\nWork like charm. :P\r\n\r\n<img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2015/12/Screenshot-2015-12-16-10.08.18.png\" alt=\"Guessing Passcode in Ruby\" class=\"aligncenter size-full wp-image-4604\" />\r\n\r\nRefactoring is a way of meditation.\r\n\r\n<pre class=\"lang:ruby title:passcode_guess_refactored\">\r\n#  ---- [ map.with ] ---------------------------------------\r\n#  http://stackoverflow.com/questions/23695653/can-you-supply-arguments-to-the-mapmethod-syntax-in-ruby\r\n\r\n# Patch Symbol class to allow\r\n# ... passing parameters to map() or similar method\r\nclass Symbol\r\n  def with(*args, &block)\r\n    ->(caller, *rest) { caller.send(self, *rest, *args, &block) }\r\n  end\r\nend\r\n\r\n#  ---- [  ] -----------------------------------------------\r\n\r\n# create array of all possibilites\r\n# ... except the basic guessed\r\ndef possibilities\r\n  last_code = ('9' * @digits).to_i\r\n\r\n  # (0..last_code).map(&:to_s).collect { |s| s.rjust(@digits, '0') } - @guessed\r\n  (0..last_code).map(&:to_s).map(&:rjust.with(@digits, '0')) - @guessed\r\nend\r\n\r\ndef matched?(guess)\r\n  if guess == @the_code\r\n    @code_matched = guess\r\n    true\r\n  else\r\n    false\r\n  end\r\nend\r\n\r\n#  ---- [  ] -----------------------------------------------\r\n\r\nprint 'Please give me the code to guess (integer only): '\r\n@the_code = gets.chomp\r\n\r\n@digits = @the_code.length\r\n@code_matched = ''\r\n@guessed = []\r\n\r\nputs \"The code is #{@digits} digits long.\"\r\nputs 'Begin guessing ...'\r\n\r\n# check basics\r\n# (0..9).map(&:to_s).collect { |s| s * @digits }.each do |guess|\r\n(0..9).map(&:to_s).map(&:*.with(@digits)).each do |guess|\r\n  @guessed.push(guess)\r\n  break if matched?(guess)\r\nend\r\n\r\n# now brute force\r\nif @code_matched.length == 0\r\n  possibilities.each { |guess| break if matched?(guess) }\r\nend\r\n\r\n# Should matched something or the user is cheating.\r\nif @code_matched.length > 0\r\n  puts \"The code is #{@code_matched}. Right?\"\r\nelse\r\n  puts \"I can't find your code. Are you cheating?\"\r\nend\r\n</pre>",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "coding",
+    "programming",
+    "ruby",
+    "nerdy life"
+  ]
+}

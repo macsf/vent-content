@@ -1,0 +1,12 @@
+{
+  "id": 2098,
+  "slug": "29174579756",
+  "title": "",
+  "date": "2012-08-10T21:26:43.000Z",
+  "excerpt": "",
+  "content": "![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/tumblr/tumblr_m8kpojXmwh1qzwi7fo1_250.jpg)\n\nI've been wondering why my 2-core machine has 4 graphs showing CPU usage. Now I know. It's [hyper-threading](http://apple.stackexchange.com/questions/54502/why-does-apple-activity-monitor-report-that-my-mac-with-a-dual-core-intel-i5-ivy).",
+  "categories": [
+    "Photo"
+  ],
+  "tags": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": 4522,
+  "slug": "irregular-expression",
+  "title": "(Ir)Regular Expression",
+  "date": "2015-06-24T06:28:03.000Z",
+  "excerpt": "",
+  "content": "I spent almost half of yesterday trying to figure out how to capture a substring from a list of text. The text is a result of querying products from the database. They contain product name, color code, and many of them also have the color name (in parentheses). \r\n\r\n<pre class=\"highlight:false\">\r\nALEXIS 002\r\nBIG EASY 011\r\nVENETO 012\r\nAMAZING 200 (AURORA)\r\nBABY WOOL 201 (ALPINE MEADOW)\r\nFISHERMAN'S WOOL 098 (NATURAL)\r\nHOMETOWN USA 108 (WASHINGTON DENIM)\r\nJIFFY THICK & QUICK 207 (GREEN MOUNTAINS)\r\nLION COTTON 098 (NATURAL)\r\nLION SUEDE 178\r\nMARTHA EXTRA SOFT WOOL (GERBERA DAISY)\r\nMARTHA LOFTY WOOL BLEND 509 (BALLPOINT BLUE)\r\nVANNA'S CHOICE BABY 100 (ANGEL WHITE)\r\nWOOL EASE THICK & QUICK 099 (FISHERMAN)\r\n</pre>\r\n\r\nSo what I want is everything before the number. First thing I think of is regular expression. So I started crafting the regex pattern.\r\n\r\nFirst I came up with this one.\r\n\r\n<pre class=\"lang:regex\">\r\n^(\\D+)\r\n</pre>\r\n\r\nIt should just work. I thought. Capture 1 or more **non-digit** character. Well it did for most of the lines, except for line 11. It returns the whole string with parentheses.\r\n\r\n<pre>\r\nALEXIS\r\nBIG EASY\r\nVENETO\r\nAMAZING\r\nBABY WOOL\r\nFISHERMAN'S WOOL\r\nHOMETOWN USA\r\nJIFFY THICK & QUICK\r\nLION COTTON\r\nLION SUEDE\r\nMARTHA EXTRA SOFT WOOL (GERBERA DAISY)\r\nMARTHA LOFTY WOOL BLEND\r\nVANNA'S CHOICE BABY\r\nWOOL EASE THICK & QUICK\r\n</pre>\r\n\r\nHuh? Why? Then I thought, maybe because it does not have the **digit** to separate the string. So I modify the pattern to look for optional digits.\r\n\r\n<pre class\"lang:regex\">\r\n/^(\\D+)(\\d{3})?(.*)/\r\n</pre>\r\n\r\nStill not working. (same result as above)\r\n\r\nAfter many tries, I **RTFM** and found out that `\\D` will match any **non-digit** (meaning, include symbols) but `\\w` will match **any word characters** (meaning a-z, 0-9 and _ but not symbols). So I changed the pattern.\r\n\r\n<pre class=\"lang:regex\">\r\n/^(\\w+[^\\d|\\(]*)/\r\n</pre>\r\n\r\nThat's `\\w+` (one or more word character) but `[^\\d|\\(]*` (not digit or parentheses). And BOOM!\r\n\r\n<pre class=\"highlight:false\">\r\nALEXIS\r\nBIG EASY\r\nVENETO\r\nAMAZING\r\nBABY WOOL\r\nFISHERMAN'S WOOL\r\nHOMETOWN USA\r\nJIFFY THICK & QUICK\r\nLION COTTON\r\nLION SUEDE\r\nMARTHA EXTRA SOFT WOOL\r\nMARTHA LOFTY WOOL BLEND\r\nVANNA'S CHOICE BABY\r\nWOOL EASE THICK & QUICK\r\n</pre>\r\n\r\nIt worked.\r\n\r\nNote:\r\n\r\n1. The first `^` means beginning of line but the second `^` means _not_.\r\n2. I use [Rubular](http://rubular.com) to help visually forming the pattern.",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "coding",
+    "programming",
+    "ruby",
+    "regex",
+    "development",
+    "nerdy life"
+  ]
+}

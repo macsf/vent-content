@@ -1,0 +1,20 @@
+{
+  "id": 4995,
+  "slug": "4995",
+  "title": "JS: Filter Array of Objects",
+  "date": "2017-06-06T10:22:00.000Z",
+  "excerpt": "",
+  "content": "Let's say we have this ...\r\n\r\n<pre class=\"lang:js decode:true\">\r\nconst runCmd = [\r\n  { scope: 'js', cmd: 'babel-node' },\r\n  { scope: 'ruby', cmd: 'ruby -W0' },\r\n  { scope: 'php', cmd: 'php -f' },\r\n  { scope: 'python', cmd: 'python' },\r\n  { scope: 'shell', cmd: 'bash' }\r\n]\r\n</pre>\r\n\r\nAnd we want to get the `cmd` for each language scope, except for Javascript. (Say, we have another check for `js` but not `jsx`.) We could either do this.\r\n\r\n<pre class=\"lang:js decode:true\">\r\nrunCmd\r\n  .filter(function(rc) {\r\n    return rc.scope !== 'js'\r\n  })\r\n  .forEach(function(rc) {\r\n    console.log(rc.cmd)\r\n  })\r\n</pre>\r\n\r\nOr we can do this.\r\n\r\n<pre class=\"lang:js decode:true\">\r\nrunCmd.filter(rc =&gt; rc.scope !== 'js').forEach(rc =&gt; console.log(rc.cmd))\r\n</pre>\r\n\r\nActual use of the script ...\r\n\r\nhttps://gist.github.com/macsf/f27537cd312c2796522884025106e33a\r\n\r\nHmmm..\r\n\r\n(This is the reason why I like Atom more than VSCode. It is so easy whipping up a quick script for some simple thing. I don't need to write a whole plugin.)",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "development",
+    "javascript",
+    "es6",
+    "ecmascript",
+    "es2015",
+    "fatarrow",
+    "atom"
+  ]
+}

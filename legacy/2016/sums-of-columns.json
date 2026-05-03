@@ -1,0 +1,17 @@
+{
+  "id": 4625,
+  "slug": "sums-of-columns",
+  "title": "Sums of Columns",
+  "date": "2016-01-19T02:58:56.000Z",
+  "excerpt": "",
+  "content": "So, I pulled out data from Excel and saved them into array similar to this.\r\n\r\n<pre class=\"lang:ruby title:data_array\">\r\ndata = [['ABCD', 'EF', 4930, 326, 21023],\r\n        ['ABCD', 'EF', 943, 21, 3032.01],\r\n        ['ABCD', 'EF', 2234.39, 332.16, 203.1],\r\n        ['ABCD', 'EF', 5944.8, 504.3, 30329.32]]\r\n</pre>\r\n\r\nNow, I need to find the sum of all number columns. First I thought, sum of column 2, 3 and 4.\r\n\r\n<pre class=\"lang:ruby title:sums_1\">\r\nsums = []\r\n\r\n(2..4).each { |n| sums << data.map { |col| col[n] }.reduce(&:+) }\r\n\r\n# => [14052.189999999999, 1183.46, 54587.43]\r\n</pre>\r\n\r\nThen I have to merge the result[^round] with another array of 2 blank elements in order to finish the sum row. Or I can do ...\r\n\r\n<pre class=\"lang:ruby title:sums_2\">\r\nsums = []\r\n\r\n(0..4).each { |n| sums << (n > 1 ? data.map { |col| col[n] }.reduce(&:+) : '') }\r\n\r\n# => [\"\", \"\", 14052.189999999999, 1183.46, 54587.43]\r\n</pre>\r\n\r\nIt is done but it is very difficult to read. \r\n\r\nRight be for I went to bed (I hate it when this happens), I thought I can do it differently. After a couple of trials and errors. I came up with this ...\r\n\r\n<pre class=\"lang:ruby title:sums_3\">\r\nsums = []\r\n\r\ndata.transpose.each_with_index { |val, col| sums << (col < 2 ? '' : val.reduce(&:+)) }\r\n\r\n# => [\"\", \"\", 14052.189999999999, 1183.46, 54587.43]\r\n</pre>\r\n\r\nIt might not look much different and even longer but it has one less curly braces, which is always better.\r\n\r\n[^round]: I can round out the number with .round(2) but I have another method that does formatting of the number so there no need to round it here.",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "coding",
+    "programming",
+    "ruby",
+    "nerdy life"
+  ]
+}

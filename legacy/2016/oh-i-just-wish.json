@@ -1,0 +1,17 @@
+{
+  "id": 4849,
+  "slug": "oh-i-just-wish",
+  "title": "Oh... I just wish...",
+  "date": "2016-08-29T23:44:11.000Z",
+  "excerpt": "",
+  "content": "Every other day, I just wish PHP would adopt some of the Ruby syntax so that I could do ...\r\n\r\n<pre class=\"lang:ruby\">\r\nputs '(Client) Protocol versions: remote=31, negotiated=29'.split('=')[-1]\r\n\r\n# 29\r\n</pre>\r\n\r\n... instead of ...\r\n\r\n<pre class=\"lang:php\">\r\n$str = '(Client) Protocol versions: remote=31, negotiated=29';\r\necho substr($str, strrpos($str, '=') + 1);\r\n\r\n// 29\r\n</pre>\r\n\r\n",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "geek talk",
+    "PHP",
+    "programming",
+    "ruby"
+  ]
+}

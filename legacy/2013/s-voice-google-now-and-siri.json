@@ -1,0 +1,19 @@
+{
+  "id": 3614,
+  "slug": "s-voice-google-now-and-siri",
+  "title": "S-Voice, Google Now and Siri",
+  "date": "2013-01-21T15:01:11.000Z",
+  "excerpt": "",
+  "content": "Out of curiosity, I \"asked\" the three artificial intelligence, voice-command, automated helper programs 2 simple questions.\n\n### What is the weather like tomorrow (?)\n\n![What is the weather like tomorrow (?)](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2013/01/what_is_the_weather_like_tomorrow.jpg)\n\nAll three services reported different temperature ranges but close enough for a forecast, I suppose. Google Now seemed to provided the most useful information, current temperature and next couple of days forecast.\n\n### How is the traffic (?)\n\n![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2013/01/how_is_the_traffic.jpg)\n\nI didn't really plan to ask this question but I like the results. The three services provided totally different answers. Google Now gave the most useful answer, thanks to Google Maps service. Siri properly redirected to Maps.app but the result is not useful since Apple Maps doesn't have [traffic layer](http://www.apple.com/ios/feature-availability/#maps-traffic) for countries around here yet. S-Voice, however, didn't know what to do.\n\n**This round, Google wins.**\n\nIt is obvious that I don't do much during my weekends. :)",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "android",
+    "google now",
+    "iOS",
+    "s-voice",
+    "screenshot",
+    "siri"
+  ]
+}

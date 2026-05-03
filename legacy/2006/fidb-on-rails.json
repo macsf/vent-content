@@ -1,0 +1,15 @@
+{
+  "id": 1014,
+  "slug": "fidb-on-rails",
+  "title": "fiDB on Rails",
+  "date": "2006-08-06T11:04:43.000Z",
+  "excerpt": "",
+  "content": "The honeymoon period is not over yet. There are still a lot of things to settle down. But I guess those are internal matters now so I think I should not be posting anything up here. Or the shareholders would be very upset.\n\n[![](http://static.flickr.com/60/225106294_5432e67b6d_m.jpg)](http://www.flickr.com/photos/macsfbox/225106294/)\n\nThis I can write about. I am currently (still!) working on the company's internal database. I think I have mentioned it once some weeks back. That version was written on PHP and was abandoned. Earlier last week, I had an urge to try the new (not really new anymore, actually) web framework called [Ruby on Rails](http://www.rubyonrails.org/). And so I tried.\n\nI am not going to go into details here because I have already bored many of the usual Readers already. Let's just say, what I have managed to get done in days with PHP (in my  regular 'fast-coding' mode) could be done in a matter of an hour with Rails.\n\nNow that's impressive.\n\nDinner time, gotta go.\n\nP.S. #1 fiDB = FinalPiece Internet Database, in case you are curious.\n\nP.S. #2 Thanks Jaam for the correction. And I think I totally agree with your dad. So from now on, I will try to say \"ระบบสุริยะ\" when I refer to the Solar System then! (If I do not forget, that is.)\n\nP.S. #3 One thing I do not understand, why [getting an I.D. needs quota](http://www.iningz.net/memoir/archives/2006/08/26-554.php)? What kind of government does this to the people? Oh, the kind of government that tries very hard to **issue the I.D. to every immigrant workers**!",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "inside finalpiece.net",
+    "self talk"
+  ]
+}

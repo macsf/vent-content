@@ -1,0 +1,14 @@
+{
+  "id": 875,
+  "slug": "feeds-update",
+  "title": "Feeds Update",
+  "date": "2005-04-11T04:13:50.000Z",
+  "excerpt": "",
+  "content": "Dear Feeds Readers,\n\nAfter running offline experiment with \"FeedBurner\":http://www.feedburner.com for a while, I think it's quite safe to point the site's feeds to the new location. So please kindly update macSF.net's feeds to the following links:\n\ntbox: http://feeds.feedburner.com/macsf/tbox\ntbox comments:  http://feeds.feedburner.com/macsf/tbox_comments\ntbox sidethoughts:  http://feeds.feedburner.com/macsf/sidethoughts\n\nPlease drop a line if you have any problem with the new locations.\n\nThanks and Have a good day.\n\nP.S. Regular readers, you don't need to make any changes to your bookmarks. Everything is still the same.\n\n%(me)link ข้างต้นใช้กับโปรแกรมประเภท feed aggregators หรือ \"Bloglines\":http://www.bloglines.com หนะครับ ส่วน link ของ website ยังเหมือนเดิมอ่านิ%",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "inside macsf.net"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": 2615,
+  "slug": "207261159",
+  "title": "",
+  "date": "2009-10-07T20:51:00.000Z",
+  "excerpt": "",
+  "content": "![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/tumblr/tumblr_kr6g2cQXip1qzwi7fo1_500.gif)\n\nPanic Chronicle / 2009-10-09\n\nLast thing I do, move the mouse. -\"-\n\nBy the way, what does \"pmap_remove_range\" function do?\n\n`unloaded kexts:`\n`com.apple.driver.AppleHIDKeyboard\t1.1.5f1`",
+  "categories": [
+    "Photo"
+  ],
+  "tags": [
+    "kernel panic",
+    "panic chronicle",
+    "pmap_remove_range",
+    "snow leopard"
+  ]
+}

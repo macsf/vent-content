@@ -1,0 +1,15 @@
+{
+  "id": 1217,
+  "slug": "tableful",
+  "title": "Tableful",
+  "date": "2007-09-21T02:10:46.000Z",
+  "excerpt": "",
+  "content": "I can't remember the last time I used this many tables in my HTML. But that's the way the client wants. (And the design, provided by the client, also forces the use of tables.)\n\n![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2007/09/tableful.jpg)\n\nAt first when I saw the layout (done in Visio), I thought it's going to take about 10-40 minutes to finish each page. But when I saw the HTML files the client has provided (seen above), I was stunned.\n\nIt actually took me about an hour just to finish the first page. I'm that bad. :P\n\nThis one is a bit of a challenge because we've to go through the original code before working with new pages so the coding style conforms with the way client wants.\n\nBut anyway, coding for me is always fun. ;)\n\n(Listing via [Firebug](http://getfirebug.com).)",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "inside finalpiece.net",
+    "weaving the web"
+  ]
+}

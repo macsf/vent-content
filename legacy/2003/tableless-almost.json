@@ -1,0 +1,14 @@
+{
+  "id": 675,
+  "slug": "tableless-almost",
+  "title": "Tableless, almost",
+  "date": "2003-12-03T08:33:36.000Z",
+  "excerpt": "",
+  "content": "I've been trying to make my site  **tableless**  for quite awhile already. The discussion regarding this matter (table vs tableless [css]) is comparable to Microsoft vs Apple, PC vs Macintosh, ASP vs PHP or Toyota vs Honda. But in the end, it all come down to preference.\n\n... In my case, however, I just want to learn.\n\nAnd trust me, it feels good when you say \"YES! I did it.\" (or \"Eureka!\" -- that's preference too.) after a long period of trials and errors.\n\nNo, I didn't come up with everything by myself. I've walked around all over the web, cracked open every CSS I've found, messed up my own site (fortunately, the offline one) so many times I lost count. But in the end, it's fruitful. :)\n\nThe new layout (old layout, minus tables) is not flawless though. I tried my best but IE still doesn't love me.  Most of the errors caused by the way IE renders CSS. But it should have any effect on the functionalities of the site.  %(me)What \"functionalities\", I wonder? Oh, comments and links. Yeah Yeah.%\n\n %(rem)Back then, web designers used to \"make the design for IE and then fix it so that it works with other browsers.\" That time has past. Now we \"make the design for every other standards-complaint browsers and then fix it so that it works with IE.\" Poor thing.%\n\nOh, there's one table at the bottom of the page -- the comment form. :)\n\nFinal words: CSS is good. Table is good. Use them wisely!!\n\nแถมท้าย .. พี่หมีใช้โปรแกรมอันไหนอะครับ มีคุณ ๆ คนอ่านคนไหนใช้ pMachine เป็นเรื่องเป็นราวไหมอะ ไอ้เจ้านี่ดูรวม ๆ แล้วก็ดีอ่านะครับ แต่รู้สึกว่า features มันจะเยอะเกินความจำเป็นไปหน่อย\n\nOne thing I'm quite certain, I haven't found any blogging software to have the 'nested reply' (reply to the comment) like I have. :D\n\nP.S. Forgot one thing, the font is no longer fixed too. I used to do \"px\" but now it's \"em\". Once again, it's preference.",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "inside macsf.net"
+  ]
+}

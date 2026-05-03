@@ -1,0 +1,17 @@
+{
+  "id": 3908,
+  "slug": "my-geeky-weekends-2",
+  "title": "My Geeky Weekends #2",
+  "date": "2013-10-29T13:57:13.000Z",
+  "excerpt": "",
+  "content": "เอาหละ ตกลงว่าเราต้องการจะเปลี่ยน WordPress installation เป็นแบบ multisite ชนิด _subdirectory_ (หรือจะทำ multisite แบบ _subdomain_ ก็ได้) สิ่งแรกที่ต้องทำคือไปเพิ่ม 1 บรรทัดใน `wp-config.php` [ตามวิธี](http://codex.wordpress.org/Create_A_Network)เค้าบอกว่าเพิ่มตรงก่อนบรรทัดที่เขียนว่า `/* That's all, stop editing! Happy blogging. */` ก็ได้ (search ง่ายดี) เพิ่มว่า\r\n\r\n[php]\r\ndefine('WP_ALLOW_MULTISITE', true);\r\n[/php]\r\n\r\n![WP_ALLOW_MULTISITE](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2013/10/allow_multisite.jpg)\r\n\r\nเสร็จแล้วก็ไป refresh หน้า Dashboard ทีนึง แล้วไปที่ `Tools > Network Setup` ตรวจสอบรายละเอียดว่าถูกต้อง แล้วก็กดไปที่ `Install` ได้เลย\r\n\r\n![Create Network](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2013/10/create_network.jpg)\r\n\r\nพอเสร็จแล้ว หน้าต่อมาจะบอกว่าให้เราเพิ่ม setting เข้าไปใน `wp-config.php` และ `.htaccess` ก็ทำตามเขาบอกได้\r\n\r\n![Edit Configuration](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2013/10/edit_configuration.jpg)\r\n\r\nพอทำตามเขาเสร็จแล้วก็กดที่ link ที่ให้ Login ใหม่ WordPress ก็จะ install ข้อมูลที่เกี่ยวข้องกับ multisite ให้ แล้วเราก็จะมี menu เพิ่มมาหนึ่งอันใน Admin Bar\r\n\r\n![Network Admin](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2013/10/network_admin.jpg)\r\n\r\nเลือกเข้าใปที่ `Network Admin > Sites` เราก็จะสามารถเพิ่ม site ต่าง ๆ ลงภายใต้ **main path** (หรือที่ WordPress เรียกว่า `PATH_CURRENT_SITE` ซึ่งในที่นี้คือ `/store/`) ได้ โดยแต่ละ site ก็จะมี dashboard เป็นของตัวเอง แยกใช้ theme และ plugins ได้โดยไม่กระทบซึ่งกันและกัน\r\n\r\n![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2013/10/talk_url.jpg)\r\n\r\nถึงตรงนี้เราก็สามารถสร้างเวบไซต์หลายอันโดยใช้ WordPress Installation เดียวได้ โดยแต่ละ site จะมี tables ในฐานข้อมูลเพิ่มขึ้น ดังรูป\r\n\r\n![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2013/10/new_tables.jpg)\r\n\r\nโดยแต่ละ site จะมี tables ดังต่อไปนี้\r\n\r\n* `wp_?_commentmeta`\r\n* `wp_?_comments`\r\n* `wp_?_links`\r\n* `wp_?_options`\r\n* `wp_?_postmeta`\r\n* `wp_?_posts`\r\n* `wp_?_term_relationships`\r\n* `wp_?_term_taxonomy`\r\n* `wp_?_terms`\r\n\r\nเช่น site ที่ 2 ก็จะเป็น `wp_2_posts` เป็นต้น (สำหรับ site แรกจะไม่มีตัวเลข)\r\n\r\nตอนหน้า ย้าย URL ...",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "geek talk",
+    "weaving the web",
+    "web development",
+    "wordpress"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 5461,
+  "slug": "joining-dictionaries",
+  "title": "Joining Dictionaries",
+  "date": "2023-03-07T14:01:42.000Z",
+  "excerpt": "",
+  "content": "<!-- wp:paragraph -->\n<p>Python Dictionary has one important character, the keys must be unique (just like values in Set). </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Joining two dictionaries (or more) is an interesting process. It could be quite simple, in different ways.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3>Unpack the dictionaries into a dictionary</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Simply just unpack them.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":5468,\"sizeSlug\":\"full\",\"linkDestination\":\"media\"} -->\n<figure class=\"wp-block-image size-full\"><a href=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2023/03/Screenshot-2023-03-07-at-08.58.50-PM.png\"><img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2023/03/Screenshot-2023-03-07-at-08.58.50-PM.png\" alt=\"\" class=\"wp-image-5468\"/></a></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>But if the dictionaries have duplicate keys, this will result in <code>TypeError</code>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":5463,\"sizeSlug\":\"full\",\"linkDestination\":\"media\"} -->\n<figure class=\"wp-block-image size-full\"><a href=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2023/03/Screenshot-2023-03-07-at-08.46.45-PM.png\"><img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2023/03/Screenshot-2023-03-07-at-08.46.45-PM.png\" alt=\"\" class=\"wp-image-5463\"/></a></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Which is where the second <strong>simple</strong> way comes in.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3>Update one of the dictionary</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Dictionary has an <code>.update()</code> method which will update the values of the dictionary if the key matches. And add the new <code>key:value</code> if they are not there.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":5466,\"sizeSlug\":\"full\",\"linkDestination\":\"media\"} -->\n<figure class=\"wp-block-image size-full\"><a href=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2023/03/Screenshot-2023-03-07-at-08.59.15-PM-1.png\"><img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2023/03/Screenshot-2023-03-07-at-08.59.15-PM-1.png\" alt=\"\" class=\"wp-image-5466\"/></a></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Simple.</p>\n<!-- /wp:paragraph -->",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "coding",
+    "programming",
+    "python"
+  ]
+}

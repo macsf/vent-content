@@ -1,0 +1,12 @@
+{
+  "id": 698,
+  "slug": "regarding-the-latest-worm-beware",
+  "title": "Regarding the latest worm .. beware!",
+  "date": "2004-02-02T07:27:29.000Z",
+  "excerpt": "",
+  "content": "%(rem)I sent this message to several people in my addressbook. However, their ISPs see it as a virus. Very nice. :)%\n\nDear all,\n\nYou might have heard bits and pieces regarding the latest worm-series called \"MyDoom\" (not Avian-Flu). It comes to you via e-mail and it spreads very rapidly. Here're the characteristics of the worm-infected e-mail you'll need to look for:\n\nSender's address:\n\nbq.. random\n\np.\n\nMessage header: (chosen at random from the following list)\n\nbq.. test\nhi\nhello\nMail Delivery System\nMail Transaction Failed\nServer Report\nStatus\nError\n\np.\n\nMessage body: (chosen at random from the following list)\n\nbq.. test\n\nThe message cannot be represented in 7-bit ASCII\nencoding and has been sent as a binary attachment.\n\nsendmail daemon reported: Error #804 occured during\nSMTP session. Partial message has been received\n\nThe message contains Unicode characters and has\nbeen sent as a binary attachment.\n\nThis message contains MIME-encoded graphics and\nhas been sent as a binary attachment.\n\nMail transaction failed. Partial message is available.\n\np.\n\nAttachment name: (may be one word from the list below, or two words from the list below joined by an underscore)\n\nbq.. document\nreadme\ndoc\ntext\nfile\ndata\ntest\nmessage\nbody\n\np.\n\nThe attachment may have one of the following extensions:\n\nbq.. pif\nscr\nexe\ncmd\nbat\n\np.\n\nThe worm may also send messages with a meaningless selection of characters in the message head, message body or attachment name.\n\n%(source) \"Virus List\":http://www.viruslist.com/%\n\nKeep your eyes open and watch out!\n\nSW\n\n---\nOne OS to rule them all, One OS to find them,\nOne OS to bring them all, and with its Greatness .. bind them.\n\n\"OS X\" (Oh-Ess-Ten)\n\n **Update**  (4:13 PM)\n\n!/gallery/misc/mydoom.jpg!\n\n\nOnly a couple hours after I posted this entry, I've got my first MyDoom. But the hosting provider does a very good job of filtering out the intected file.\n\nBad thing: I'll never have any new virus/worm in my collection then. :(",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": []
+}

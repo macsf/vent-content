@@ -1,0 +1,17 @@
+{
+  "id": 3858,
+  "slug": "relationships",
+  "title": "ว่าด้วย &quot;ความสัมพันธ์&quot;",
+  "date": "2013-09-27T07:27:32.000Z",
+  "excerpt": "",
+  "content": "ไม่รู้เข้าใจถูกหรือผิด ...\r\n\r\nโดยปกติสำหรับการเขียนโปรแกรมทำงานร่วมกับฐานข้อมูล โดยเฉพาะอย่างยิ่งระบบที่สามารถเข้าถึง \"ความสัมพันธ์\" (relationship) ของข้อมูลได้ เช่น Ruby on Rails หรือ PHP frameworks ต่างๆ\r\n\r\nสมมติว่าอย่างนี้ ...\r\n\r\n[caption id=\"attachment_3867\" align=\"alignnone\" width=\"481\"]![Supplier-&gt;Product-&gt;PO Relationship](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2013/09/db_relationship1.png)Supplier->Product->PO Relationship[/caption]\r\n\r\nแล้วในโปรแกรมก็บอกเอาไว้ว่า ...\r\n\r\n[php]\r\nSupplier->hasMany('PurchaseOrder');\r\n[/php]\r\n\r\nและ ...\r\n\r\n[php]\r\nPurchaseOrder->belongsTo('Supplier');\r\n[/php]\r\n\r\nแล้วถ้าสมมติว่าเราต้องการถามหาข้อมูลของ PO ทั้งหมด เราก็อาจจะบอกว่า\r\n\r\n[php]\r\n$po = PurchaseOrder::all();\r\n[/php]\r\n\r\nทีนี้ระหว่าง output ถ้าเราต้องการแสดง supplier ของแต่ละรายการด้วย เราก็สามารถบอกว่า\r\n\r\n[php]\r\necho $po->supplier->name;\r\n[/php]\r\n\r\nซึ่งโปรแกรมก็จะไปมองหาเองจาก relationship ที่กำหนดไว้แล้ว\r\n\r\nแต่คำถามคือ การเขียนแบบนี้มันก็กลายเป็นว่า ในแต่ละบรรทัดของการแสดงผล ก็ต้องมีการถามเข้าไปที่ฐานข้อมูลเพื่อหยิบชื่อของ supplier ทุกครั้ง กลายเป็นว่าจะเกิด query ซ้ำๆ หลายๆ อัน เช่นจากตัวอย่างข้างบนก็จะเกิดว่า\r\n\r\n[sql]\r\nSELECT * from purchase_orders;\r\n[/sql]\r\nเพื่อถามหา PO ทั้งหมด\r\n\r\n[sql]\r\nSELECT * from suppliers WHERE id = purchase_order.supplier_id;\r\n[/sql]\r\nเพื่อถามหา supplier ของ PO แต่ละรายการ และวนข้อ 2 จนกว่าจะหมดรายการ เท่ากับว่าต้องมี query ทั้งหมด n (จำนวนรายการ PO) + 1\r\n\r\nทีนี้ถ้าเอาใหม่ เขียนตั้งแต่ถามหา PO เลยว่า ให้ไป join ตาราง suppliers มาด้วย เป็นว่า\r\n\r\n[php]\r\n$po = PurchaseOrder::all()->join('suppliers', 'supplier_id', '=', 'suppliers.id');\r\n[/php]\r\n\r\nก็จะเกิด query แค่หนึ่งอันที่ว่า\r\n\r\n[sql]\r\nSELECT * FROM purchase_orders INNER JOIN suppliers ON supplier_id = suppliers.id;\r\n[/sql]\r\n\r\nลดจำนวนของ query ไปเหลือ 1 ... มันไม่ดีกว่าเหรอ?\r\n\r\n(แต่ก็แปลว่า ไม่จำเป็นต้องกำหนด relationship ใน database เพราะว่า relationship ถูกกำหนดในเวลาเขียน query)\r\n\r\nหรือไม่ได้เขียนนานมาก จนลืม concept?",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "database",
+    "PHP",
+    "web",
+    "web development"
+  ]
+}

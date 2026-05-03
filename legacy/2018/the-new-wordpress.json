@@ -1,0 +1,16 @@
+{
+  "id": 5147,
+  "slug": "the-new-wordpress",
+  "title": "The New WordPress",
+  "date": "2018-09-14T23:48:16.000Z",
+  "excerpt": "",
+  "content": "<!-- wp:paragraph -->\n<p>To be more precise, the new WordPress Post screen, <a href=\"https://wordpress.org/plugins/gutenberg/\">Gutenberg</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":5149,\"align\":\"center\",\"width\":473,\"height\":288} -->\n<div class=\"wp-block-image\"><figure class=\"aligncenter is-resized\"><img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2018/09/screenshot_20180915062435.png\" alt=\"\" class=\"wp-image-5149\" width=\"473\" height=\"288\"/><figcaption>Gutenberg</figcaption></figure></div>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>It comes with several basic functionality of a&nbsp;<strong>page-builder</strong> type plugin. I used to try it once way back when it was still in an early stage. Back then I don't like it very much (well, it's early stage!). Today I saw a notification to give Gutenberg a try, so I activate the plugin again. Hmm... It's got better. I think it make formatting an article a lot easier and more fun to write.&nbsp;Hmm... It's got better. I think it make formatting an article a lot easier and more fun to write.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:pullquote -->\n<figure class=\"wp-block-pullquote\"><blockquote><p>it make formatting an article a lot easier and more fun to write.</p></blockquote></figure>\n<!-- /wp:pullquote -->\n\n<!-- wp:gallery {\"ids\":[5151,5152,5153],\"columns\":3} -->\n<ul class=\"wp-block-gallery columns-3 is-cropped\"><li class=\"blocks-gallery-item\"><figure><img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2018/09/screenshot_20180915062448-1.png\" alt=\"\" data-id=\"5151\" data-link=\"https://macsf.net/vent/?attachment_id=5151\" class=\"wp-image-5151\"/></figure></li><li class=\"blocks-gallery-item\"><figure><img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2018/09/screenshot_20180915062502.png\" alt=\"\" data-id=\"5152\" data-link=\"https://macsf.net/vent/?attachment_id=5152\" class=\"wp-image-5152\"/></figure></li><li class=\"blocks-gallery-item\"><figure><img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2018/09/screenshot_20180915062510.png\" alt=\"\" data-id=\"5153\" data-link=\"https://macsf.net/vent/?attachment_id=5153\" class=\"wp-image-5153\"/></figure></li></ul>\n<!-- /wp:gallery -->\n\n<!-- wp:paragraph -->\n<p>Feature like Columns is still quite difficult to navigate. Understandably, it's still at beta stage.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":5154,\"align\":\"center\",\"width\":431,\"height\":331} -->\n<div class=\"wp-block-image\"><figure class=\"aligncenter is-resized\"><img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2018/09/screenshot_20180915063334.png\" alt=\"\" class=\"wp-image-5154\" width=\"431\" height=\"331\"/><figcaption>Columns (beta)</figcaption></figure></div>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>If you are not using those page-builder-type plugin, may be you could give <a href=\"https://wordpress.org/plugins/gutenberg/\">Gutenberg</a> a try. You might like it.</p>\n<!-- /wp:paragraph -->",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "plugin",
+    "wordpress",
+    "gutenberg"
+  ]
+}

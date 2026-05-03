@@ -1,0 +1,12 @@
+{
+  "id": 2461,
+  "slug": "805666676",
+  "title": "WordPress: Rewrite Rules for Custom Post Types",
+  "date": "2010-07-13T01:00:00.000Z",
+  "excerpt": "",
+  "content": "Note to self: When added a product custom post type, WP will display /product/item in the URL. To display /brand/item instead of /product/item, simply do ...\n\nfunction owl_add_rewrites() {\nglobal $wp_rewrite;\n\n$owl_nwpr = array(\n'brand1/([^/]+)' => 'index.php?product=$1',\n'brand2/([^/]+)' => 'index.php?product=$1'\n);\n\n$wp_rewrite->non_wp_rules = $owl_nwpr + $wp_rewrite->non_wp_rules;\n}\n\nfunction owl_flush_rewrites() {\nglobal $wp_rewrite;\n\n$wp_rewrite->flush_rules();\n}\n\nadd_action('generate_rewrite_rules', 'owl_add_rewrites');\nadd_action('admin_init', 'owl_flush_rewrites');\n\nEveryday comes with new things to add to this tiny brain.",
+  "categories": [
+    "General"
+  ],
+  "tags": []
+}

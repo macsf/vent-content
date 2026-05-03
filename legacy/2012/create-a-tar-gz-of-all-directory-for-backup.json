@@ -1,0 +1,14 @@
+{
+  "id": 2137,
+  "slug": "create-a-tar-gz-of-all-directory-for-backup",
+  "title": "Create a .tar.gz of all directory for backup",
+  "date": "2012-03-17T02:24:00.000Z",
+  "excerpt": "",
+  "content": "I'm getting lazier every passing day.\r\n\r\n    for f in $(ls -d */);\r\n      do tar cvfz $(echo $f | sed 's////').tar.gz $f;\r\n    done\r\n\r\n*Learn new thing everyday* is going to be my slogan of the year.",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "cli"
+  ]
+}

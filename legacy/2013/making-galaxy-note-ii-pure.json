@@ -1,0 +1,24 @@
+{
+  "id": 3709,
+  "slug": "making-galaxy-note-ii-pure",
+  "title": "Making Galaxy Note II Pure",
+  "date": "2013-02-24T16:46:48.000Z",
+  "excerpt": "",
+  "content": "I've always known that I wouldn't like Samsung's Touchwiz interface even before I had the Galaxy Note II in my possession. And the moment I had it, I immediately opt for some other launcher. But then it still nag me that there're some traces of Samsung inside the device.\n\nI've heard about [CyanogenMod](http://www.cyanogenmod.org/), a custom ROM for non-Google device which based on official Android Open Source Project ROM for a while. I knew that they've a [custom ROM for Note II](http://download.cyanogenmod.com/?device=n7100&type=nightly) and since I really like the \"pureness\" of Jelly Bean (Yes, I said \"I like Android OS\"), I decided to replace Samsung ROM with CyanogenMod on my Note II.\n\n<img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2013/02/pure_galaxy_note_ii_cyanogen.jpg\" alt=\"Galaxy Note II with CyanogenMod 10.1\">\n\n<p class=\"alert\">Note: CyanogenMod for Note II is still \"under development\". They called it <strong>nightly</strong>. I found it to be quite stable for regular usage.</p>\n\nCyanogenMod has all of the pure Android goodness with a little bit more. But the device still has come of Samsung property which I'd like to remove.\n\n### Make the Software Looks Like Original\n\nFirst of all, I want to get the software keys back and remove the capacitive touch buttons. After a bit of Googling, I found what I have to do.\n\nEnable software keys by adding the following line to `/system/build.prop`.\n\n    qemu.hw.mainkeys=0\n\nTo deactivate the capacitive touch buttons, I found two sources with different suggestion. Never mind, I'll use both.\n\nI add the following lines to `/system/usr/keylayout/sec_touchkey.kl`.\n\n    #key 158   BACK         VIRTUAL\n    #key 139   MENU         VIRTUAL\n\nThen I remark out lines from `/system/usr/keylayout/Generic.kl`, look for key 139 and 158.\n\n    #key 139   MENU              WAKE_DROPPED\n    #key 158   BACK              WAKE_DROPPED\n\n<img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2013/02/pure_galaxy_note_ii.jpg\" alt=\"Pure Galaxy Note II\">\n\nLast but not least, I don't like camera sound. I've found a page saying that I should add the following line to `build.prop` but it doesn't seems to work for me.\n\n    ro.camera.sound.forced=0\n\nSo I opt for the brute force way, just rename the camera sound files to something else. The files located at `/system/media/audio/ui/`. Rename `camera_click.ogg` and `camera_focus.ogg` to something else, say `camera_click.bak` and `camera_focus.bak`.\n\nFinally, reboot the phone and it should look very much like an official Google's Galaxy Note II.\n\n### The Catch\n\nObviously, all of the Samsung features do not work. So there will be no S-Pen. The motion-thing will not work. And many other things. But hey, those features don't actually come with Android. :)\n\n**Note** There is one draw back. You'll have to redo all these modification after every firmware upgrade. Not too difficult though.\n\n**Note** To make changes on the device with shell. Run `adb shell` then `su` follows by `mount -o rw,remount /system`.",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "android",
+    "camera sound",
+    "capacitive buttons",
+    "cyanogenmod",
+    "galaxy",
+    "galaxy note 2",
+    "root explorer",
+    "samsung galaxy note 2",
+    "software keys",
+    "touchkey",
+    "touchwiz"
+  ]
+}

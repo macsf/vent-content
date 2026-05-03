@@ -1,0 +1,14 @@
+{
+  "id": 678,
+  "slug": "tbox-mt",
+  "title": "TBOX -&gt; MT",
+  "date": "2003-12-04T22:49:00.000Z",
+  "excerpt": "",
+  "content": "The decision has been made .. I'm porting my TBOX to  \"MovableType\":http://www.movabletype.org  (with  \"Smarty\":http://smarty.php.net  as the rendering engine). Will be away for awhile.\n\nHopefully, a nested (threaded) comment solution will come a long soon. Actually, there's one right now but it needs to be patched into MT. I think I'll wait.\n\nNow you know why my site is never at the \"nearly done\" state. :)",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "self talk"
+  ]
+}

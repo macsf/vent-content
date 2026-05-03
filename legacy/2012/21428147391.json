@@ -1,0 +1,19 @@
+{
+  "id": 2123,
+  "slug": "21428147391",
+  "title": "",
+  "date": "2012-04-20T01:11:13.000Z",
+  "excerpt": "",
+  "content": "To start Emacs as daemon automatically, put the following line in `cron` (that's `crontab -e`).\n\n`@reboot emacs --daemon`\n\nAnd now use `emacsclient -t` to start Emacs, which will show up a lot quicker.",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "cli",
+    "cron",
+    "cronjob",
+    "crontab",
+    "daemon",
+    "emacs"
+  ]
+}

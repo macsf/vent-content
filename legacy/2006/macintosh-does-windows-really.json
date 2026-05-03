@@ -1,0 +1,14 @@
+{
+  "id": 981,
+  "slug": "macintosh-does-windows-really",
+  "title": "Macintosh does Windows, really",
+  "date": "2006-04-08T13:00:21.000Z",
+  "excerpt": "",
+  "content": "People have been speculating all sort of things ever since Apple announced its move to Intel. Most notorious speculation is none other than \"Will Macintosh run Windows?\"\n\nWhen \"Macbook Pro\":http://www.apple.com/macbookpro/ and the new \"Mac mini\":http://www.apple.com/macmini/ came out, the light seems to be rather dimmed. The machine is using a new type of hardware called \"EFI\":http://en.wikipedia.org/wiki/Extensible_Firmware_Interface but Windows was/and will be written for \"BIOS\":http://en.wikipedia.org/wiki/BIOS.\n\nA couple of weeks ago, a fellow has managed to \"hack\":http://onmac.net/ Windows XP installation process to include a new bootloader which allows XP to be installed (and run) on Intel-based Macintosh. But not everything is working because there's no driver for Apple's hardware and you'll need to create a special Windows installation disc manually. And Apple has nothing to do with this.\n\nAs of now, Macintosh is officially support Windows! Introducing \"Boot Camp\":http://www.apple.com/macosx/bootcamp/ (beta), a program from Apple which installs a special bootloader (similar to the _hack_ mentioned above, I supposed) on to your Macintosh. Then it burns a disc completes with every drivers you need for your machine. After that, just reboot and use your original Windows XP installation disc to setup ..umm.. Windows!\n\nBut don't run out and grab yourself the Intel-based Macintosh just yet. Wait a couple while longer until major applications have been ported for maximum performance output.\n\nThis is a good news, isn't it? :)\n\nCiao!",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "hot issues!"
+  ]
+}

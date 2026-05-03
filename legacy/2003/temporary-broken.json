@@ -1,0 +1,14 @@
+{
+  "id": 649,
+  "slug": "temporary-broken",
+  "title": "Temporary Broken",
+  "date": "2003-10-10T03:39:47.000Z",
+  "excerpt": "",
+  "content": "Don't be wondered if you see something strange on the TBOX (like no date, no heading title, etc.). My hosting provider has relocated the server and things are not settled yet.\n\n **Technical Details**  (in case you want to know):\nSomehow, the new server doesn't have Truetype feature enabled. Those missing images are automatically generated and required TTF. If the provider decideds to remove TTF support, I'l have to modify the template a bit. -\"-\n\n %(me)I hope I wasn't the one who caused the problem! :P%",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "random thoughts"
+  ]
+}

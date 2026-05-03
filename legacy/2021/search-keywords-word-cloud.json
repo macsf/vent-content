@@ -1,0 +1,12 @@
+{
+  "id": 5354,
+  "slug": "search-keywords-word-cloud",
+  "title": "Search Keywords Word Cloud",
+  "date": "2021-12-11T14:12:24.000Z",
+  "excerpt": "",
+  "content": "<!-- wp:paragraph -->\n<p>I've been working on a small project, trying to find way to process words (keywords) gathered from places. As I use this website for one of the sample data set, an interesting search keyword frequency appears.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":5355,\"sizeSlug\":\"large\",\"linkDestination\":\"media\"} -->\n<figure class=\"wp-block-image size-large\"><a href=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2021/12/kw_wordcloud.png\"><img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2021/12/kw_wordcloud-1024x768.png\" alt=\"\" class=\"wp-image-5355\"/></a></figure>\n<!-- /wp:image -->",
+  "categories": [
+    "General"
+  ],
+  "tags": []
+}

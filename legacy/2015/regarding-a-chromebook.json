@@ -1,0 +1,12 @@
+{
+  "id": 4801,
+  "slug": "regarding-a-chromebook",
+  "title": "Regarding a Chromebook",
+  "date": "2015-06-22T19:32:31.000Z",
+  "excerpt": "",
+  "content": "<p>Last weekends, I decided to go out an buy myself a Chromebook. I got the Acer Chromebook C740, the one with Core i3 CPU. Here’s my initial thoughts.</p>\n\n<p><img src=\"http://67.media.tumblr.com/6b98e767a39639aa363c9ffa42ccec0f/tumblr_inline_nqdlozh5at1razcuv_540.jpg\" alt=\"\" /></p>\n\n<p>Since the system is browser-based, it is very basic. It is pretty much a machine that run Google Chrome only. It is true that the system can be “hacked” to run some variation of Linux but I suppose it will still be a very “basic Linux”. It has something to do with the storage space.</p>\n\n<p>This machine has 32GB of solid-state drive. Some lower spec machines have only 16GB. That is enough for a Linux system but with not much remaining space.\n</p>\n\n<p><img src=\"http://66.media.tumblr.com/4f65b9668cd70e3930a2b9ee73b92dac/tumblr_inline_nqdlnkJO551razcuv_540.jpg\" alt=\"\" /></p>\n\n<p>Since it is a very limited machine. I suppose there is an advantage to that. The users will probably be very focus on the task in front of them. Well, they can still connect to the social network sites but the distraction is somewhat less than a full PC.</p>\n\n<p><b>Update</b>\n2015/06/22 - 1</p>\n\n<p>This morning I tried to install Crouton and Xfce again. I do not think I like it. Maybe I am not a Linux person. Or maybe Apple has spoiled me with the beautiful interface. So once again, I restore the Chromebook back to its original state. I think I like it more.</p>\n\n<p><b>Update</b>\n2015/06/22 - 2</p>\n\n<p>I am slowly getting used to this machine. It is a good typing machine. The keyboard feels very nice. I can also use it as a dumb terminal to connect to servers via SSH. So far so good.</p>\n\n<p><b>Update</b>\n2015/06/23</p>\n\n<p>I usually use Emacs keybinding for cursor movement. That does not work on the Chromebook. And I have not found a way to map the key, yet.\n</p>",
+  "categories": [
+    "General"
+  ],
+  "tags": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": 1336,
+  "slug": "server-down-follow-up",
+  "title": "Server Down : Follow Up",
+  "date": "2008-07-19T03:29:04.000Z",
+  "excerpt": "",
+  "content": "คุณคนเขียนตื่นมาเช้าวันนี้ พร้อมกับเสียงเตือน email บน iPhone พอเปิดดูก็เห็นข้อความว่า ...\n\n> This is an automatic notification to let you know that your slice, macsf, is showing a **considerable amount of consistent swapping activity**. Quite often this is an indicator that your application or database are not as efficient as they could be. It also may indicate that you need to upgrade your slice for more RAM.\n\nตาย หะ ... จะพังเอาอีกแล้ว คุณคนเขียนเลยรีบกุลีกุจอ ลุกขึ้นมาดู ปรากฎว่า mysql กับ apache2 ทำงานกันหนักหน่วง จะเป็นอื่นไปไม่ได้ นอกจาก wordpress กำลังกินหน่วยความจำเป็นอาหาร\n\nคุณคนเขียนเปิดเข้าไปดูหน่วยความจำที่บน server ก็ปรากฎให้เห็นว่า swap หายไปเกินครึ่งแล้ว ขืนปล่อยเอาไว้ มีหวังพังแหง๋\n\nอันที่จริงคุณคนเขียนก็ยังไม่แน่ใจนะครับ ว่าอะไรทำให้เกิดปัญหานี้ขึ้นมา เพราะทุกอย่างก็เหมือนเดิม ไม่ได้เปลี่ยนแปลงอะไรกับระบบเลย  แต่คุณคนเขียนก็เดาว่า อาจจะเป็น statistic plugin ที่คอยดูว่า มีใครมาเปิด website บ้าง ตอนนี้คุณคนเขียนก็ลองปิด plugin อันนี้ไปชั่วคราวก่อน\n\nเดี๋ยวว่ากันอีกที ... ถ้า breadcrumb หายอีก ก็ไม่ต้องแปลกใจครับ ... พัง :)\n\n[ ว่าแต่ ถ้ายังมีปัญหาอีก สงสัยต้องลองเปลี่ยนไปใช้ nginx เห็นว่า memory footprint เล็กติ๊ดเดียว ]",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "apache2",
+    "inside macsf.net",
+    "mysql",
+    "server",
+    "ssh",
+    "statistics"
+  ]
+}

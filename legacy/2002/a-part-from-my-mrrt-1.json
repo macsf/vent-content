@@ -1,0 +1,14 @@
+{
+  "id": 319,
+  "slug": "a-part-from-my-mrrt-1",
+  "title": "A part from my MRRT #1",
+  "date": "2002-09-12T05:36:52.000Z",
+  "excerpt": "",
+  "content": "Other than this TBOX I have online, I also have my MRRT (mac's really random thoughts) on my local server. Most of the time, I use it to write 'stuffs' down serveral times a day. Kind of like a personal digital diary. However, there're something not quite personal that I can put online - which is a good idea since I don't really have anything to write lately. :P\n\nMind you, skip the technical terms if you don't want to get headache. :P\n\n[size=smallest] **Bad Internet **  - 20020920@1220AM\n\nThe Internet connection is very bad lately. And everytime that things gone bad, ISP always blame it on the \"under the ocean\" connection somewhere out there. I really wonder whether it's really the connection out there or the ISP itself, that causes the bad connection. Unfortunately I don't have anyway to find out.\n\n(Well technically, there is a way to find out the \"point\" in which the connection is slow or halt. However, that can't really single out the cause. There're many other things to take into consideration.)\n\nAnyway, hope this is going to get better soon.\n\n **VERY Bad Internet **  - 20020920@1227AM\n\nI cannot even get past the ISP (CS). But it seems that the problem is not caused by CS. It's really \"the cable out there\". So Sad. :'(\n\n **'tcsh' habit**  - 20020920@1230AM\n\nFirst of all, tcsh is a UN*X command line processor.\n\nWhen you type something wrong on  **tcsh**  prompt, you hit &lt;ESC&gt; and &lt;Backspace&gt; to delete the last word. However on Windows' IE, means cancel (ignore, discard or whatever word you want) the previous CHANGES you've made to the input box. So if I typed something wrong and I hit &lt;ESC&gt; on IE, I lost EVERYthing (not just a single word).\n\nDarnIT! This is a very bad habit I've got from Linux command!!![/size]",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "random thoughts"
+  ]
+}

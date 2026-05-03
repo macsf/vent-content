@@ -1,0 +1,15 @@
+{
+  "id": 3962,
+  "slug": "there-must-be-a-better-way",
+  "title": "There must be a better way ...",
+  "date": "2013-11-10T09:59:12.000Z",
+  "excerpt": "",
+  "content": "มันต้องมีวิธีเขียนสูตรที่ดีกว่านี้สิ -\"-\r\nThere must be a better way to write this formula.\r\n\r\n[plain]\r\n=IF([@[not_in]] &lt;&gt; 1,\r\n  \\ IF(AND([@[rem'@9]] = &quot;&quot;, [@[cur'@9]] = 0), 0,\r\n  \\ IF([@[rem'@9]] = [@[cur'@9]], 0, [@[cur'@9]] - [@[rem'@9]])),\r\n  \\ IF(AND([@[rem'@9]] = &quot;&quot;, [@[cur'@9]] = 0), 0, [@[cur'@9]] - [@[rem'@9]]))\r\n[/plain]\r\n\r\nอ่านเอง ปวดหัวเอง\r\nThis thing is giving me a headache.",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "excel",
+    "formula"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": 449,
+  "slug": "star-fish-revisited",
+  "title": "star fish .. revisited",
+  "date": "2003-02-03T21:19:02.000Z",
+  "excerpt": "",
+  "content": "a friend of mine has expressed to me that he doesn't like the way i described  **pladao**  as a  _futile attempt_ . (unsurprisingly, he's working at NECTEC.) oh well, isn't it? -- resistant is futile, my friend. :)\n\n %(me)dude, at least i spent time downloading it out! how many home user actually does that?!?!%\n\nanyway .. i've been casually using the new version for a while, i think it's a little faster than the previous version. everything else is quite the same (maybe i've overlooked something). but i don't really see any reason for one-point incrementation of the version number - 1.0 to 2.0. the  \"what's new\":http://www.pladao.org/files/2.0/readme.html#changelog  describes some bug fixes and a couple of additions. okay okay .. i haven't done C++ for a while, but i think this one is more like a v1.5 -- sowwie.\n\ncompatibility (with the giant), still some more works need to be done. some of my excel spreadsheets (those with VBA) are still not working.\n\noverall performance, looking good.\n\n %(me)a question arise:  **should i download it?**\n- if you don't have microsoft office and you don't want to pay for it -&gt;  **yes** .\n- if you have microsoft office or planning to buy it but you want to try something else -&gt;  **yes** .\n- if you have microsoft office and you're happy with it -&gt;  **NO!**\n\njust my two cents ...%",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "windows world"
+  ]
+}

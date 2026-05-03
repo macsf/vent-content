@@ -1,0 +1,17 @@
+{
+  "id": 3902,
+  "slug": "my-geeky-weekends-1",
+  "title": "My Geeky Weekends #1",
+  "date": "2013-10-28T13:54:41.000Z",
+  "excerpt": "",
+  "content": "สุดสัปดาห์ที่ผ่านมา คุณคนเขียนได้รับมอบหมายโปรเจคสำคัญมา 1 ชิ้น ฟังดูเหมือนจะเป็นโปรเจคง่าย ๆ คือ _อยากเพิ่ม blog ใน WordPress ที่ใช้เป็นหน้าร้านอยู่ โดยให้ URL แยกกันต่างหาก_ ที่สำคัญ เจ้าของโปรเจคก็**คนบ้านเดียวกัน**หนะแหละ (ในที่นี้ เราจะเรียกว่า **ลูกค้า**) ทั้งหมดทั้งสิ้นมันเกิดจาก คุณคนเขียนไปยุเขาให้ทำ! -\"-\r\n\r\n![Original Store URL](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2013/10/store_url.jpg)\r\n\r\nย้อนความ ก่อนหน้านี้เวลาเปิดมาที่เวบไซต์ของร้าน (ในที่นี้สมมติว่า URL คือ `http://samplesite.dev`) script ที่เขียนไว้ก็จะ redirect ให้เข้าไปต่อที่ `http://samplesite.dev/store/` ซึ่งก็ install WordPress เอาไว้ที่ในนั้น ซึ่ง directory structure ก็อยู่ประมาณตามนี้\r\n\r\n![Original Store URL](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2013/10/original_structure.jpg)\r\n\r\nอยู่มาวันหนึ่งคุณคนเขียนก็ไปบอกเจ้าของร้านเขาว่า ทำไมไม่เขียน blog หละ site จะได้ update บ่อยหน่อย มันจะได้ดูมีชีวิตชีวา หลังจากหายไปหลายวัน เจ้าของร้านก็กลับมาบอกว่า _จะเขียน blog ละ ช่วยทำให้หน่อยสิ_\r\n\r\nคุณคนเขียนก็หายศีรษะไปวันสองวัน แล้วก็กลับไปบอกเจ้าของร้านว่า ใช้ได้แล้วจะ แต่ URL ที่ได้จะเป็น `samplesite.dev/store/talk/` โอเคมะ? หลังจากความเงียบอันอึมครึมอยู่ชั่วอึดใจ คำตอบที่ได้ราวคือ _ให้ /talk/ มันอยู่ข้างนอกได้ไหมอะ_\r\n\r\n... เดินก้มหน้าก้มตากลับไปที่คอมพิวเตอร์\r\n\r\nระหว่างทางก็นึกถึง feature หนึ่งของ WordPress ที่เรียกว่า multisite จริง ๆ แล้วเนี่ย ถ้า setup multisite ตั้งแต่เริ่มต้นเลยมันง่ายมาก การเปลี่ยนจาก single site เป็น multisite ก็ไม่ยาก เพียงแค่ย้ายไฟล์ WordPress ทั้งหมดออกจาก subdirectory เสร็จแล้ว URL ก็จะเปลี่ยนดังนี้\r\n\r\n`samplesite.dev/store/` --> `samplesite.dev/`\r\n\r\nพร้อม directory structure ใหม่\r\n\r\n![New Directory Structure](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2013/10/new_structure.jpg)\r\n\r\nหลังจากนั้นก็สร้าง site ใหม่ที่ชื่อ `/talk/` ขึ้นมาใน Network Admin ก็จะได้ `samplesite.dev/talk/`\r\n\r\n`samplesite.dev/talk/` เนี่ย โอเคแล้ว แต่ติด requirement ที่ต้องการ URL `samplesite.dev/store/` อยู่ ทีนี้แก้ URL (path) ใน Network Admin ไม่ได้ เรื่องราวก็เลยเริ่มสนุกขึ้นมา\r\n\r\nต่อตอนต่อไปครับ :)",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "geek talk",
+    "weaving the web",
+    "web development",
+    "wordpress"
+  ]
+}

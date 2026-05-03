@@ -1,0 +1,14 @@
+{
+  "id": 1040,
+  "slug": "join-or-where",
+  "title": "JOIN or WHERE?",
+  "date": "2006-11-01T06:16:52.000Z",
+  "excerpt": "",
+  "content": "Okay .. I don't really expect any response from the regular readers today. This is another technical post.\n\nI'm just wondering which is more efficient.\n\n    SELECT\n      documents.*,\n      companies.code AS company_code,\n      companies.name AS company_name,\n      projects.code AS project_code,\n      projects.name AS project_name,\n      contacts.firstname AS contact_firstname,\n      contacts.id AS contact_id\n    FROM\n      documents\n    INNER JOIN\n      (companies, projects, contacts)\n    ON\n      (documents.company_id = companies.id\n        AND documents.project_id = projects.id\n        AND contacts.company_id = companies.id)\n    WHERE\n      (documents.document_type = 'QUO'\n        OR documents.document_type = 'QTS')\n      AND documents.sub_type = 'QP'\n    ORDER BY documents.document_code DESC;\n\nor ...\n\n    SELECT\n      documents.*,\n      companies.code AS company_code,\n      companies.name AS company_name,\n      projects.code AS project_code,\n      projects.name AS project_name,\n      contacts.firstname AS contact_firstname,\n      contacts.id AS contact_id\n    FROM\n      documents, companies, projects, contacts\n    WHERE\n      companies.id = documents.company_id\n      AND projects.id = documents.project_id\n      AND projects.contact_id = contacts.id\n      AND (documents.document_type = 'QUO'\n        OR documents.document_type = 'QTS')\n      AND documents.sub_type = 'QP'\n    ORDER BY documents.document_code DESC;\n\nOr maybe they're exactly the same. Hmmm ..?",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "geek talk"
+  ]
+}

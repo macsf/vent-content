@@ -1,0 +1,14 @@
+{
+  "id": 1034,
+  "slug": "about",
+  "title": "about",
+  "date": "2006-10-09T14:18:45.000Z",
+  "excerpt": "",
+  "content": "**<?php bloginfo('name'); ?>** is powered by [WordPress <?php bloginfo('version'); ?>](http://www.wordpress.org) along with the following plugins.\n\n<?php displayPluginsAsList(); ?>",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "random thoughts"
+  ]
+}

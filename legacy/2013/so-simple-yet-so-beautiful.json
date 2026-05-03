@@ -1,0 +1,15 @@
+{
+  "id": 3939,
+  "slug": "so-simple-yet-so-beautiful",
+  "title": "So simple, yet so beautiful.",
+  "date": "2013-11-01T09:07:02.000Z",
+  "excerpt": "",
+  "content": "It does something, believe me.\r\n\r\n<pre class=\"lang:mysql decode:true \" >\r\nSELECT \r\n    products.code,\r\n    stock.id,\r\n    products.id AS pid,\r\n    stock.product_incoming AS 'in',\r\n    stock.product_outgoing AS 'out',\r\n    stock.product_remain AS 'rem',\r\n    (SELECT \r\n            sum(receiving_items.quantity)\r\n        FROM\r\n            receiving_items,\r\n            receivings\r\n        WHERE\r\n            receiving_items.receiving_id = receivings.id\r\n                AND receiving_items.product_id = products.id\r\n                AND (MONTH(receivings.rv_date) = 9\r\n                AND YEAR(receivings.rv_date) = 2013)) AS 'in@9',\r\n    (SELECT \r\n            sum(invoice_items.quantity)\r\n        FROM\r\n            invoice_items,\r\n            invoices\r\n        WHERE\r\n            invoice_items.invoice_id = invoices.id\r\n                AND invoice_items.product_id = products.id\r\n                AND (MONTH(invoices.inv_date) = 9\r\n                AND YEAR(invoices.inv_date) = 2013)) AS 'out@9',\r\n    (SELECT \r\n            sum(receiving_items.quantity)\r\n        FROM\r\n            receiving_items,\r\n            receivings\r\n        WHERE\r\n            receiving_items.receiving_id = receivings.id\r\n                AND receiving_items.product_id = products.id\r\n                AND (MONTH(receivings.rv_date) = 10\r\n                AND YEAR(receivings.rv_date) = 2013)) AS 'in@10',\r\n    (SELECT \r\n            sum(invoice_items.quantity)\r\n        FROM\r\n            invoice_items,\r\n            invoices\r\n        WHERE\r\n            invoice_items.invoice_id = invoices.id\r\n                AND invoice_items.product_id = products.id\r\n                AND (MONTH(invoices.inv_date) = 10\r\n                AND YEAR(invoices.inv_date) = 2013)) AS 'out@10',\r\n    (SELECT 'rem' - IFNULL('in@10', 0) + IFNULL('out@10', 0)) AS 'cur@9'\r\nFROM\r\n    products,\r\n    stock\r\nWHERE\r\n    stock.product_id = products.id\r\nORDER BY products.code</pre> \r\n\r\nThat's it.\r\n",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "mysql",
+    "sql"
+  ]
+}

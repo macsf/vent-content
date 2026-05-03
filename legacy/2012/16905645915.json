@@ -1,0 +1,17 @@
+{
+  "id": 2156,
+  "slug": "16905645915",
+  "title": "",
+  "date": "2012-02-01T21:20:00.000Z",
+  "excerpt": "",
+  "content": "![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/tumblr/tumblr_lyr01dU7pj1qzwi7fo1_1280.png)\n\nIf the browser can't complete the download, don't delete the file just yet. **wget** can complete the job.\n\nUsage: `wget --continue <url>`\n\nNote: **wget** doesn't come preinstalled on Mac OS X but if you're using Leopard (10.5), Snow Leopard (10.6) or Lion (10.7) on Intel Macs, you can install [Homebrew](http://mxcl.github.com/homebrew/) package management. You can then install many more UNIX-based CLI.",
+  "categories": [
+    "Photo"
+  ],
+  "tags": [
+    "cli",
+    "command-line",
+    "macosx",
+    "unix"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": 310,
+  "slug": "simple-guestbook",
+  "title": "Simple Guestbook",
+  "date": "2002-09-09T14:53:52.000Z",
+  "excerpt": "",
+  "content": "A friend of mine has asked me to write a  **Simple Guestbook**  with template-able output for her (her homework, actually). Anything with template is NO LONGER SIMPLE! Anyway, it's done.\n\nSince it's going to be only her homework, so I guess I'll put it up here. In case some of you might be able to make use of it -or- if you're learning how to PHP, this one will be a good example of \"NOT TO DO\". Hehehehe .. Decide for yourself. :)\n\n\"Grab it here\":files/gbook.tar.gz  (4KB)\n\nNo DEMO up here. Too lazy already. :P",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "weaving the web"
+  ]
+}

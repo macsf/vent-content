@@ -1,0 +1,14 @@
+{
+  "id": 771,
+  "slug": "1sf-4sb",
+  "title": "1SF .. 4SB",
+  "date": "2004-09-11T04:36:28.000Z",
+  "excerpt": "",
+  "content": "Dear Readers, please be forewarned. Today's entry is going to be boring. It's another 'my website' talk. You can skip this if you like -- or just comment about anything. :D\n\nNow that you're warned ...\n\n1SF .. 4SB = 1 step forward .. 4 steps back\n\nEver since the new  \"MT\":http://www.movabletype.org   %(rem)v3.11 -- this one supports dynamic web site generation via  \"PHP\":http://www.php.net %  came out, I tried to convert my TBOX. Things are not as easy as I thought. I've done too many custom bits and pieces and those b&amp;p made it quite difficult to migrate.\n\nAnother problem caused by my ISP, who seems to be rather too generous with \"cache\" (proxy-related thingie). Most of the time I wouldn't see any changes I made until later in the day.  %(me)Normally, changes supposed to show up immediately. Or no more than a couple of minutes, the worst.%  So I'll see bugs and error messages way after you guys. So embarassing. :'(\n\nAnyway, TBOX is back to static mode for now. And I think it'll stay this way for a while -- at least until I can find a better way to migrate to the new thing.\n\nI love challenge, don't you?\n\nGood day!\n\nP.S. For those of you who haven't heard the news,  \"Firefox\":http://www.mozilla.org/products/firefox/  is now  \"1.0PR\":http://www.mozilla.org/products/firefox/download.html?http%3A//ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.10/Firefox%20Setup%201.0PR.exe .\n\n %(me)N~Noiz, sorry I've to remove your comment posted in the previous entry. I had to restore the data from the backup file made last night. Anyway, you've caught the bug before me. :P%",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "self talk"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": 4553,
+  "slug": "slow-microsoft-excel-office-2016",
+  "title": "Slow Microsoft Excel (Office 2016)",
+  "date": "2015-08-05T06:42:47.000Z",
+  "excerpt": "",
+  "content": "OK. Here's what I mean by \"slow Excel\". You will notice the lag after I press TAB from the 1st column, before the cursor move to the right.\r\n\r\n[embed]https://www.youtube.com/watch?v=lLtbsuAgRGc[/embed]\r\n\r\nSometimes it's so slow that it doesn't register the key inputs and I have to repeat the keystrokes. (e.g. 1st line)\r\n\r\n**Disclosure:** The worksheet performs lookup from another file with 900 lines of product codes (15 column attributes).\r\n\r\n",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "mac os x",
+    "osx",
+    "excel",
+    "office2016",
+    "microsoft office",
+    "microsoft excel",
+    "slow"
+  ]
+}

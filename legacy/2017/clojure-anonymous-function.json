@@ -1,0 +1,16 @@
+{
+  "id": 5079,
+  "slug": "clojure-anonymous-function",
+  "title": "Clojure: Anonymous Function and its Shorthand",
+  "date": "2017-11-11T13:54:57.000Z",
+  "excerpt": "",
+  "content": "Just enough confusion to almost skip this part. But made it eventually. ?\r\n \r\n<pre class=\"lang:clojure decode:true\" title=\"Clojure: Anonymous Function and its Shorthand\" >\r\n(def sum #(reduce + %))\r\n(def avg #(/ (sum %) (count %)))\r\n\r\n(defn stats\r\n  [numbers]\r\n  (map #(% numbers) [sum count avg]))\r\n\r\n(defn stats-long\r\n  [numbers]\r\n  (map\r\n    (fn [f]\r\n      (f numbers))\r\n    [sum count avg]))\r\n\r\n(stats [1 2 3])                                             ;=&gt; (6 3 2)\r\n(stats-long [1 2 3])                                        ;=&gt; (6 3 2)\r\n\r\n(stats [8 6 10 13 29])                                      ;=&gt; (66 5 66/5)\r\n(stats-long [8 6 10 13 29])                                 ;=&gt; (66 5 66/5)</pre> ",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "programming",
+    "clojure",
+    "lisp"
+  ]
+}

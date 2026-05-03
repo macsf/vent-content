@@ -1,0 +1,17 @@
+{
+  "id": 2610,
+  "slug": "211461010",
+  "title": "",
+  "date": "2009-10-12T16:54:00.000Z",
+  "excerpt": "",
+  "content": "![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/tumblr/tumblr_krfee48FmB1qzwi7fo1_500.gif)\n\nPanic Chronicle / 2009-10-13\n\nConnect my Macbook to the Cinema Display, after less than a minutes -- BOOM!\n\n`unloaded kexts:`\n`com.apple.driver.AppleUSBDisplays\t2.1`",
+  "categories": [
+    "Photo"
+  ],
+  "tags": [
+    "kernel panic",
+    "panic chronicle",
+    "pmap_remove_range",
+    "snow leopard"
+  ]
+}

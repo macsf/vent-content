@@ -1,0 +1,14 @@
+{
+  "id": 69,
+  "slug": "%e0%b8%a7%e0%b8%b1%e0%b8%99%e0%b8%99%e0%b8%b5%e0%b9%89-%e0%b9%84%e0%b8%a1%e0%b9%88%e0%b9%80%e0%b8%82%e0%b8%b5%e0%b8%a2%e0%b8%99-%e0%b8%a0%e0%b8%b2%e0%b8%84-%e0%b9%93-%e0%b8%ab%e0%b8%a3%e0%b8%b7",
+  "title": "วันนี้ ไม่เขียน (ภาค ๓ หรือเปล่า) ...",
+  "date": "2001-12-07T12:55:25.000Z",
+  "excerpt": "",
+  "content": "เอาเรื่องที่เจอบ่อย ๆ ช่วงนี้กันก่อนดีกว่านิ เป็นเรื่องเกี่ยวกับ web development อะนะ .. คุณผู้อ่านรู้ไหมครับ ว่า web technology ตัวไหนที่ทำให้เครื่อง computer ของคุณ ๆ ทำงานหนักที่สุด มันคือ Flash animation กับ Active Scripting (JavaScript พวกนั้นแหละ) ครับ สังเกตง่าย ๆ เลยครับ ถ้าคุณไป website ไหนที่มี \"หิมะตก\" เนี่ย computer ของคุณจะดูคล้าย ๆ กับว่ามันกำลังแอบทำอะไรอยู่ ไม่ค่อยสนใจจะตอบสนองกับคำสั่งของคุณเท่าไหร่ ถ้าคุณเปิด Task Manager ขึ้นมาดูก็จะเห็นว่า มี process อยู่ตัวนึงที่แอบ run อยู่ที่ 10% ขึ้นไป พูดถึงไอ้หิมะเนี่ยนะครับ ถ้า site ไหน set ค่าตัวแปรไม่ถูกเนี่ย หิมะของ site นั้นสามารถใช้ CPU ได้ถึง 80% เลยทีเดียว ... ก็ฝากเอาไว้ให้ท่านทั้งหลายที่ชอบใช้ technique อะครับ ถ้าอยากจะให้ก็ควรจะดูวิธีให้ละเอียดก่อน ไม่ใช่สักแต่ว่าแปะ มีให้ดูครับ  \"DiaryAddict\":http://www.diaryaddict.com ,  \"Storythai\":http://www.storythai.com  ... ผมไม่บอกว่าอะไหนดี หรือไม่ดีนะครับ ดูเอาเอง (จะอ้างว่าหน้านึงไม่มีอะไรเลย กับหน้านึงเป็น database นี่ไม่เกี่ยวกันนะครับ ถ้าลอง disable javascript จะเห็นว่า มันโหลดพร้อม ๆ กัน) ... ลงท้ายง่าย ๆ คือ effect เนี่ย ควรใช้แต่พอเหมาะครับ มากเกินไปมันก็ไม่สวยหรอก น่าเบื่อ ...\n\n %(rem)ตายละวา หาเรื่องใส่ตัวเนอะ ไปเที่ยววิจารณ์ชาวบ้านเค้า แต่อันนี้ผมกล้าวิจารณ์ครับ เพราะผมวิจารณ์ในสิ่งที่ผมมั่นใจว่าผมรู้แน่%\n\nพอแล้วดีกว่า ... ไม่มีอะไรจะเขียน วันนี้หยุดซะวันละกัน เอาอันนี้ไปอ่านเค้าบอกว่าเป็น World's funniest joke (vote กันที่  \"laughLAB.co.uk\":http://www.laughlab.co.uk/ )\n\n\nFamed fictional detective Sherlock Holmes and his gruff assistant Doctor Watson pitch their tent while on a camping expedition, but in the middle of the night Holmes nudges Watson awake and questions him.\n\nHOLMES: Watson, look up at the stars and tell me what you deduce.\n\nWATSON: I see millions of stars, and if there are millions of stars, and if even a few of those have planets, it is quite likely there are some planets like earth, and if there are a few planets like earth out there might also be life.\n\nHOLMES: Watson, you idiot! Somebody stole our tent.",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "random thoughts"
+  ]
+}

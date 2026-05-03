@@ -1,0 +1,14 @@
+{
+  "id": 671,
+  "slug": "seasonal-changes",
+  "title": "Seasonal Changes",
+  "date": "2003-11-12T05:48:12.000Z",
+  "excerpt": "",
+  "content": "OMG, it's November already! TBOX will be one year older.  %(me)The Author will be lazier%  ... This calls for some changes.\n\nFirst thing, I'll no longer using my own template-engine. TBOX will now be rendered using  \"Smarty\":http://smarty.php.net/  -- enough with re-inventing the wheel. :)\n\n... I'm still using my own backend code though. Too lazy to convert the old database to something else.\n\nSecond thing, TBOX is blue. (obviously, isn't it?) Actually, I plan to change the color every now and then. Bare with me when you see \"strange\" colors, I'm kinda color-blind. :P\n\nLast but not least, you'll see errors every once in a while -- most of the codes need rewritten. Sorry for the inconvenience! :D\n\n %(me)On the color issue, I don't like green anyway. Actually, I think orange will come back someday.%",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "self talk"
+  ]
+}

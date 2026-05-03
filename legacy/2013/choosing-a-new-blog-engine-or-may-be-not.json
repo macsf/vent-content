@@ -1,0 +1,21 @@
+{
+  "id": 3680,
+  "slug": "choosing-a-new-blog-engine-or-may-be-not",
+  "title": "Choosing a new blog engine. Or may be not.",
+  "date": "2013-02-08T06:27:26.000Z",
+  "excerpt": "",
+  "content": "สองสามวันก่อนคุณคนเขียนบ่นผ่าน twitter ไปว่าช่วงนี้เริ่มรู้สึก [WordPress](http://wordpress.org) ที่ใช้เป็นเบื้องหลังของเวบไซต์มานานมันช้าเหลือเกิน\n\nhttps://twitter.com/macsf/status/298711908033380352\n\nพอมีเวลาว่าง คุณคนเขียนก็เลยลองมองหา CMS/blog engine อื่น ๆ ดู เผื่อว่าจะเจออะไรที่น่าใช้ และเร็วกว่า WordPress หาไปหามาก็เจอที่น่าสนใจอยู่ 2 อัน คือ [Octopress](http://octopress.org) และ [Kirby](http://getkirby.com)\n\nOctopress เป็น blogging engine ที่เขียนซ้อนไปบน engine ที่มีชื่อว่า [Jekyll](http://jekyllrb.com/) ทำหน้าที่แปลง (generate) ข้อความที่เราเขียนเป็น HTML ก่อนที่เราจะ upload (หรือเรียกว่า deploy) ขึ้นไปไว้บน server เพราะฉะนั้น เวลาคุณ ๆ คนอ่านมาเปิดดู ก็จะเป็นการเปิด static page ที่ไม่ต้องมีการแปลงข้อมูล หรือติดต่อกับฐานข้อมูล จึงทำให้การแสดงผลเร็วขึ้นมากอย่างเห็นได้ชัด\n\nแต่ Octopress ก็มีข้อเสีย ทุกครั้งที่มีการ update ข้อมูล โปรแกรมจะต้องแปลง (generate) static page ที่เกี่ยวข้องใหม่ทั้งหมด เพราะฉะนั้นถ้าคุณคนเขียนต้องการแสดงข้อมูลของ blog เดิมที่มี (ซึ่งเยอะมาก) คงต้องใช้เวลาการ generate ในแต่ละครั้งนานพอสมควร\n\nส่วน Kirby เป็น file-base CMS ทำหน้าที่คล้าย ๆ WordPress แต่แทนที่จะเก็บข้อมูลใน database ก็ใช้เก็บเป็น text file แล้วใช้ folder/directory เป็นตัวแบ่งหน้า อันนี้คุณคนเขียนไม่ได้ทดลองจริงจังแต่ก็คิดว่าถึงแม้จะต้องแปลงข้อมูลเป็น HTML ทุกครั้ง น่าจะทำงานได้เร็วพอสมควร เพราะไม่ต้องมีการพูดคุยกับ database ให้ยุ่งยาก\n\nแต่ปัญหายังไม่จบเท่านั้น ระหว่างเลือก engine คุณคนเขียนก็คิดถึงการนำข้อมูลเก่าจาก WordPress ออกมา มีคนเขียน export script ที่ใช้ได้กับทั้ง 2 โปรแกรมอยู่หลายอัน แต่ละอันก็มีข้อจำกัดต่าง ๆ กัน แต่ทั้งหมดสรุปได้ว่า export ออกมาแล้ว URL พังยับเยิน เพราะหลาย ๆ ข้อความที่เขียนเก็บ ๆ มา URL เป็นภาษาไทย พอ export แล้ว มันก็เลยกลายเป็น urlencoded unicode ซึ่งเป็นอะไรที่วุ่นวายเหลือเกินในการแก้ไข\n\nทดลองไปทดลองมาอยู่หลายครั้งก็ไม่สำเร็จสักที คุณคนเขียนก็เลยถอดใจ ถอยมาใช้วิธีพื้นฐาน ใส่ plugin ที่ชื่อ [WP Super Cache](http://wordpress.org/extend/plugins/wp-super-cache/) ให้สร้าง HTML cache entry สำหรับข้อความที่ถูกเปิดล่าสุด และเนื่องจากคุณคนเขียนไม่ได้เปิด comment เอาไว้ เพราะฉะนั้นก็ตั้งเวลาให้ cache expire ไว้นาน ๆ ได้อย่างไม่ต้องสนใจ ... เร็วขึ้นเยอะเลย\n\nก็เลยสรุปว่า ใช้ WordPress ต่อไปเหมือนเดิม\n\nhttps://twitter.com/macsf/status/298845776895942657\n\nP.S. I just realized that newer WordPress has built-in Twitter embed script. Nice.",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "cms",
+    "inside macsf.net",
+    "jekyll",
+    "kirby",
+    "octopress",
+    "technical",
+    "weaving the web",
+    "wordpress"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": 2142,
+  "slug": "remove-apache-and-php-installation-from-ubuntu-server",
+  "title": "Remove Apache and PHP installation from Ubuntu Server",
+  "date": "2012-03-09T04:16:00.000Z",
+  "excerpt": "",
+  "content": "Trying to get a fresh start.\r\n\r\n    $ dpkg -l | grep 'apache2|php5' | awk '{ print $2}' | sed ':a;N;$!ba;s/n/ /g' | xargs apt-get -y autoremove\r\n\r\n    $ dpkg -l | grep \"^rc\" | cut -d \" \" -f 3 | xargs dpkg --purge\r\n\r\nI think this works. Well it works once.\r\n\r\n(or use `apt-get purge -y` instead of `dpkg --purge`)",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "apache2",
+    "apt-get",
+    "cli",
+    "command-line",
+    "PHP 5",
+    "ubuntu"
+  ]
+}

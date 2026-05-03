@@ -1,0 +1,16 @@
+{
+  "id": 2145,
+  "slug": "list-all-files-except",
+  "title": "List all files except ...",
+  "date": "2012-03-05T09:44:00.000Z",
+  "excerpt": "",
+  "content": "One thing I learn from command-line today.\r\n\r\n    $ ls *.jpg~*thumb.jpg\r\n\r\nList all .jpg except the thumbnails (files ending with 'thumbs.jpg').",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "cli",
+    "command-line",
+    "zsh"
+  ]
+}

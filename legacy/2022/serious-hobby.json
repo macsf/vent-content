@@ -1,0 +1,15 @@
+{
+  "id": 5362,
+  "slug": "serious-hobby",
+  "title": "Serious Hobby",
+  "date": "2022-01-28T14:56:57.000Z",
+  "excerpt": "",
+  "content": "<!-- wp:paragraph -->\n<p>It started with an idea of creating a prototype.  </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":5367,\"sizeSlug\":\"large\",\"linkDestination\":\"media\"} -->\n<figure class=\"wp-block-image size-large\"><a href=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2022/01/Screen-Shot-2022-01-28-at-9.52.42-PM-1.png\"><img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2022/01/Screen-Shot-2022-01-28-at-9.52.42-PM-1-1024x559.png\" alt=\"\" class=\"wp-image-5367\"/></a></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Before I knew it, I have created a (quite) complete application.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":5369,\"sizeSlug\":\"large\",\"linkDestination\":\"media\"} -->\n<figure class=\"wp-block-image size-large\"><a href=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2022/01/Screen-Shot-2022-01-28-at-9.50.52-PM.png\"><img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2022/01/Screen-Shot-2022-01-28-at-9.50.52-PM-1024x584.png\" alt=\"\" class=\"wp-image-5369\"/></a></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>เริ่มจากที่อยากเขียน proof-of-concept ทำไปทำมา ได้โปรแกรม(ง่าย ๆ)ไว้ใช้งานจริงซะงั้น 😆</p>\n<!-- /wp:paragraph -->",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "programming",
+    "python"
+  ]
+}

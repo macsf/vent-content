@@ -1,0 +1,14 @@
+{
+  "id": 805,
+  "slug": "web-developer-extension",
+  "title": "Web Developer Extension",
+  "date": "2004-11-10T15:52:51.000Z",
+  "excerpt": "",
+  "content": "I'm doing an unusual thing today. I'm going to introduce you guys to a new tools I've just found recently. It's called \"Web Developer Extension\":http://www.chrispederick.com/work/firefox/webdeveloper/ and it runs as a Firefox extension. %(me)Another reason for you to grab a copy of \"Firefox\":http://www.getfirefox.com.%\n\nAfter you've installed the extension, you'll have a new toolbar called _Web Developer Toolbar_. It looks like this ...\n\n!/gallery/webdevtool/thebar.png!\n\nA very cool extension it is .. Here are the sample of what this thing can do.\n\n!/gallery/webdevtool/blocksize.png!\n\n.. display block size of each section\n\n!/gallery/webdevtool/ids-classes.png!\n\n.. display IDs and Classes\n\n!/gallery/webdevtool/links.png!\n\n.. display link paths\n\n!/gallery/webdevtool/outline.png!\n\n.. outline block of each elements\n\nThere are a lot more features but I guess you'll have to give it a try yourself.\n\nEnjoy!\nHave a nice day.\n\n%(me)This is what happens when the NEWS are no longer NEW (meaning - same old boring news).%",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "weaving the web"
+  ]
+}

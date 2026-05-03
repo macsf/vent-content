@@ -1,0 +1,14 @@
+{
+  "id": 302,
+  "slug": "%e0%b8%9b%e0%b8%b2%e0%b8%81%e0%b8%81%e0%b8%b2-%e0%b8%95%e0%b8%ad%e0%b8%9a",
+  "title": "ปากกา .. ตอบ",
+  "date": "2002-09-04T22:06:31.000Z",
+  "excerpt": "",
+  "content": "มาตอบเรื่อง \"ปากกา\" ข้างล่างก่อน จะหมด weekends อีกละ ไม่รู้เนื้อรู้ตัวเลยจริง ๆ\n\nทีแรกที่ฟังเพลงนี้ ก็คิดเหมือน ๆ กะคุณ ๆ คนอ่านหละครับ \"ปากกาด้ามนั้นมันคงแพงซะเหลือเกิน\" แต่ฟังไป ๆ คิด(ฟุ้งซ่าน)ไป ๆ ก็มีความคิดนึงโผล่ขึ้นมาในหัวว่า \"ปากกาด้ามนั้น ถึงแม้ราคามันจะไม่เท่าไหร่ แต่มันก็มีค่ามากกว่า _เธอ_ \" ... เอออ เนอะ .. มันคิดไปได้ยังไง ... :)\n\n[ต้องบอกว่า  _ไม่เคย เธอคงไม่รู้_  มั้งนิครับ อิอิอิ]\n\nAnd for those of you who are really curious (and can't read thai) -- yes, I've successfully transfered my server from Linux\n\n[size=smallest]Linux sanmateo 2.4.19-xfs #1 Thu Sep 19 00:44:56 ICT 2002 i586 unknown[/size]\n\nto FreeBSD\n\n[size=smallest]FreeBSD sanmateo.bayarea.local 4.6.2-RELEASE FreeBSD 4.6.2-RELEASE #5: Sat Sep 28 16:08:19 ICT 2002 root@sanmateo.bayarea.local:/usr/src/sys/compile/BAYAREA-LOCAL  i386[/size]\n\nNot easy though, to me a day and a half to finish things up. :)",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "random thoughts"
+  ]
+}

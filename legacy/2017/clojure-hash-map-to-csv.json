@@ -1,0 +1,16 @@
+{
+  "id": 5090,
+  "slug": "clojure-hash-map-to-csv",
+  "title": "Clojure: Hash Map to CSV",
+  "date": "2017-11-15T06:16:32.000Z",
+  "excerpt": "",
+  "content": "I'm sure this is not the best solution but I'm happy with how it turns out, so far. ?\r\n\r\n \r\n<pre class=\"lang:default decode:true \" title=\"Hash Map to CSV\" >(defn hashmap-&gt;csv\r\n  [records record-keys]\r\n  (clojure.string/join\r\n    \"\\n\"\r\n    (map (fn [row] (clojure.string/join \",\" row))\r\n         (map (fn [record]\r\n                (map (fn [rec-key]\r\n                       (rec-key record))\r\n                     record-keys))\r\n              records))))\r\n\r\n\r\n(def hm [{:id 1 :name \"first\"}\r\n         {:id 2 :name \"second\"}\r\n         {:id 3 :name \"third\"}\r\n         {:id 4}])\r\n\r\n(def ks [:id :name])\r\n\r\n(hashmap-&gt;csv hm ks)                                        ;=&gt;\"1,first\\n2,second\\n3,third\\n4,\"</pre> \r\n",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "programming",
+    "clojure",
+    "lisp"
+  ]
+}

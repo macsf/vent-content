@@ -1,0 +1,12 @@
+{
+  "id": 640,
+  "slug": "working-the-web",
+  "title": "Working the Web",
+  "date": "2003-10-03T21:10:13.000Z",
+  "excerpt": "",
+  "content": "A quick glance at the calendar revealed an alarming truth. I've been doing web-related stuff for almost 10 years already. Still can't stop asking myself -- \"that long?!?\"\n\nAfter all these years, I still can't find a solution to one of the most common problem of website development - cross-platform compatibility*. My common problem has something to do with CSS (Cacading Style Sheet). I think I can safely say that each browser has its way of rendering CSS. So weird things always show up.\n\n[img=Internet Explorer 5.2 on Macintosh]/gallery/20031010/mac_ie5.jpg!\n\n\n[img=Safari 1.0 on Macintosh]/gallery/20031010/mac_safari.jpg!\n\n\n[img=Internet Explorer 5.5 on Windows 2000]/gallery/20031010/win_ie5.jpg!\n\n\n[img=Internet Explorer 6.0 on Windows 2000]/gallery/20031010/win_ie6.jpg!\n\n\n[img=Mozilla 1.3 on Windows 2000]/gallery/20031010/win_moz13.jpg!\n\n\n[img=Opera 6 on Windows 2000]/gallery/20031010/win_opera.jpg!\n\n %(rem)BrowserCam.com : Captured at 1024x768%\n\nMost of the browsers render my TBOX correctly -- except IEWin. :)\n\nCertainly, there's a way to write one code that shows up nicely on  _most_  of the browsers in the market (such as using <table>...</table>). But if I do that, it would mean that I have to abandon all the fun of debugging the HTML code. :)\n\nOh well ..\n\n %(me)* There are numbers of \"how-to create an x-browser compatible website\" floating around all over the web. But I haven't seen any one-code-fix-all kind yet.%",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": []
+}

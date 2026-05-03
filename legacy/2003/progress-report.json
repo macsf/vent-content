@@ -1,0 +1,14 @@
+{
+  "id": 442,
+  "slug": "progress-report",
+  "title": "progress report",
+  "date": "2003-01-12T05:16:15.000Z",
+  "excerpt": "",
+  "content": "I think it's going to be awhile before the new TBOX is ready for prime time. Still quite a number of things I haven't figured out yet - like an efficient way to do TEMPLATE! And if I can't figure that out, there'll be NO new TBOX. :'(\n\nOh and .. I tried to use  **Georgia**  once in the current version (Layout v3.0 and the new one will be Layout v3.2, since not manythings has changed), but Thai doesn't work well with it (either messed up or too small). Now I just do the easy thing by come up with a [ th ]..[ /th ] tag -- which will apply  **MS Sans Serif**  to the enclosed text.  %(me)[th]&#3585;&#3655;&#3648;&#3611;&#3655;&#3609;&#3629;&#3618;&#3656;&#3634;&#3591;&#3591;&#3637;&#3657;[/th] otherwise &#3648;&#3611;&#3655;&#3609;&#3629;&#3618;&#3656;&#3634;&#3591;&#3591;&#3637;&#3657; -- might not see difference on 2K &amp; XP%  Not super efficient but it gets the job done. Fine with me. :) (I'm still deciding, I might use  **Tahoma**  instead. But I think Tahoma would be too small at this size.)\n\nAnother thing while I'm at it, the new code is definitely NOT working well on anything else other than IE. Need to work on that too.\n\nWondering what I'm talking about?  \"Click here\":tbox_v40/tbox4.php !",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "random thoughts"
+  ]
+}

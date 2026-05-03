@@ -1,0 +1,20 @@
+{
+  "id": 4131,
+  "slug": "fix-print-setting-stuck-in-landscape",
+  "title": "Fix: Print Setting Stuck in Landscape",
+  "date": "2014-07-15T01:56:37.000Z",
+  "excerpt": "",
+  "content": "OK. I have this weird problem with OS X. The print dialog stuck at *Custom* paper size and *Landscape* mode. And for some reason, I cannot set it back to A4/Portrait. It keeps reverting back to Custom/Landscape. And this happens in every applications.\r\n\r\n[caption id=\"attachment_4133\" align=\"aligncenter\" width=\"798\"]<img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2014/07/stuck.jpg\" alt=\"Print Dialog Stuck in Landscape Mode\" width=\"798\" height=\"509\" class=\"size-full wp-image-4133\" /> Print Dialog Stuck in Landscape Mode[/caption]\r\n\r\nI have been searching for a way to reset this setting for a couple of weeks. Deleting preferences provided little help.\r\n\r\nUntil today ...\r\n\r\nI found [a posting](https://discussions.apple.com/message/17814771) on Apple discussion board suggesting that *default setting* could be changed via *Page Setup* (not the Print dialog). Who would have thought that changing print setting could be done in Page Setup?\r\n\r\n*Note:* Page Setup only available in some applications. **TextEdit** is a good bet.\r\n\r\nIn TextEdit, choose Page Setup from File menu.\r\n\r\n[caption id=\"attachment_4132\" align=\"aligncenter\" width=\"580\"]<img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2014/07/page_setup.jpg\" alt=\"File &gt; Page Setup\" width=\"580\" height=\"516\" class=\"size-full wp-image-4132\" /> File > Page Setup[/caption]\r\n\r\nChange the setting for *Any Printer* to the paper size and orientation of your preference.\r\n\r\n[caption id=\"attachment_4134\" align=\"aligncenter\" width=\"580\"]<img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2014/07/change_setting.jpg\" alt=\"Change the Setting\" width=\"580\" height=\"516\" class=\"size-full wp-image-4134\" /> Change the Setting[/caption]\r\n\r\nNow, the topmost option (Settings), click on it and choose *Save as Default*. There will be no visual cue. The option will jump back to Page Attributes. Click *OK* to close the dialog.\r\n\r\n[caption id=\"attachment_4135\" align=\"aligncenter\" width=\"580\"]<img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2014/07/save_default.jpg\" alt=\"Save as Default\" width=\"580\" height=\"516\" class=\"size-full wp-image-4135\" /> Save as Default[/caption]\r\n\r\nYour setting should be defaulted to whatever you have chosen.\r\n\r\n[caption id=\"attachment_4136\" align=\"aligncenter\" width=\"798\"]<img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2014/07/unstuck.jpg\" alt=\"Unstuck Setting\" width=\"798\" height=\"509\" class=\"size-full wp-image-4136\" /> Unstuck Setting[/caption]\r\n\r\nThis one does not make sense. Default printer setting should be in Print dialog or printer setting in System Preferences. ",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "macosx",
+    "print setting",
+    "landscape",
+    "portrait",
+    "paper size",
+    "troubleshooting",
+    "page setup"
+  ]
+}

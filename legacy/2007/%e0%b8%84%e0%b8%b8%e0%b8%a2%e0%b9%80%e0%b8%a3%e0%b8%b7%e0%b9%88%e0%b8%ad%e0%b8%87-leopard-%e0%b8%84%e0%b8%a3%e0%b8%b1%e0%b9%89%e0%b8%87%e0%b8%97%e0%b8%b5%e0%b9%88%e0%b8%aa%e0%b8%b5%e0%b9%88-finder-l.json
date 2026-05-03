@@ -1,0 +1,20 @@
+{
+  "id": 1232,
+  "slug": "%e0%b8%84%e0%b8%b8%e0%b8%a2%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87-leopard-%e0%b8%84%e0%b8%a3%e0%b8%b1%e0%b9%89%e0%b8%87%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%aa%e0%b8%b5%e0%b9%88-finder-l",
+  "title": "คุยเรื่อง Leopard ครั้งที่สี่ - Finder List View",
+  "date": "2007-11-01T17:40:34.000Z",
+  "excerpt": "",
+  "content": "เรื่องนึงที่คุณคนเขียนบ่นตั้งแต่ครั้งแรกที่ได้ใช้ Leopard คือรูปแบบการแสดงผลของ Finder ครับ ตรงที่บ่นคือถ้ากำหนดให้แสดงผลเป็นแบบ list view (หรือถ้าเป็น Windows เรียกว่า detailed view) Finder จะแสดงผลด้วยการสลับสี background ของแต่ละแถวด้วย (alternate color)\n\n![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2007/10/leopard/19.jpg)\n\nคุณคนเขียนไม่ชอบแหะ อันที่จริงมันก็ช่วยได้ เวลาโฟลเดอร์มีไฟล์เยอะ ๆ แต่ถ้าสีฟ้านั้นอ่อนลงหน่อยก็จะดี ... แต่คุณคนเขียนก็ชอบแบบไม่สลับสีมากกว่า\n\nเมื่อกี้ \"ฝีด\" (feed) เพิ่งจะรายงานว่า มีคน[ค้นพบวิธีทำให้ Finder ไม่สลับสี](http://www.macosxhints.com/article.php?story=20071101062430328) ... คุณคนเขียนไม่รีรอ ลองทันใด\n\n![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2007/10/leopard/20.jpg)\n\nสุดยอด ..",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "Apple",
+    "finder",
+    "hack",
+    "impression",
+    "leopard",
+    "mac os x",
+    "tips"
+  ]
+}

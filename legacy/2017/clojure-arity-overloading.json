@@ -1,0 +1,16 @@
+{
+  "id": 5065,
+  "slug": "clojure-arity-overloading",
+  "title": "Clojure: Arity Overloading",
+  "date": "2017-11-09T13:27:39.000Z",
+  "excerpt": "",
+  "content": "Coming back to [Clojure](//clojure.org) again. It's been so long, let's start from the beginning.\r\n\r\n<pre class=\"lang:clojure decode:true\" title=\"Arity Overloading\" >\r\n;; Arity Overloading\r\n(defn sum\r\n  \"Add two numbers or a list of numbers and return result.\"\r\n  ;; add two numbers\r\n  ([a b]\r\n    (+ a b))\r\n  ;; add list of numbers\r\n  ([x]\r\n    (reduce + x)))\r\n\r\n(sum 1 2)                                                   ;=> 3\r\n(sum (range 10))                                            ;=> 45\r\n</pre> \r\n\r\n--addition--\r\n\r\nGive [Carbon](https://carbon.now.sh/) a try. Cool.\r\n\r\n<img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2017/11/arity_overloading.png\" alt=\"\" width=\"1564\" height=\"644\" class=\"aligncenter size-full wp-image-5077\" />\r\n\r\n### Sidenote\r\n\r\nI just realized that with [IntelliJ](//www.jetbrains.com/idea/download) and [Cursive IDE](//cursive-ide.com), there's no need to install additional JDK and Leiningen in order to write Clojure. That's good.",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "programming",
+    "clojure",
+    "lisp"
+  ]
+}

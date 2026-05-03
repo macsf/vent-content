@@ -1,0 +1,16 @@
+{
+  "id": 5135,
+  "slug": "open-current-web-page-in-an-alternate-browser",
+  "title": "Open current web page in an alternate browser",
+  "date": "2018-05-05T02:52:00.000Z",
+  "excerpt": "",
+  "content": "And the laziness wins again.\r\n\r\n<pre class=\"lang:applescript decode:true \" title=\"Open in Other Browser\" >\r\non alfred_script(q)\r\n\tif appIsRunning(\"Google Chrome\") and appIsInFront(\"Google Chrome\") then\r\n\t\topenInSafari()\r\n\telse if appIsRunning(\"Safari\") and appIsInFront(\"Safari\") then\r\n\t\topenInChrome()\r\n\tend if\r\nend alfred_script\r\n\r\non openInChrome()\r\n\ttell application \"Safari\"\r\n\t\t\r\n\t\tif exists URL of current tab of window 1 then\r\n\t\t\tset vURL to URL of current tab of window 1\r\n\t\t\t\r\n\t\t\ttell application \"Google Chrome\"\r\n\t\t\t\t--if windows ≠ {} then\r\n\t\t\t\tif (count windows) ≠ 0 then\r\n\t\t\t\t\tmake new tab at the end of window 1 with properties {URL:vURL}\r\n\t\t\t\telse\r\n\t\t\t\t\tmake new window\r\n\t\t\t\t\tset URL of (active tab of window 1) to vURL\r\n\t\t\t\tend if\r\n\t\t\t\tactivate\r\n\t\t\tend tell\r\n\t\t\t\r\n\t\t\ttell application \"Safari\"\r\n\t\t\t\tclose current tab of window 1\r\n\t\t\t\tdelay 0.1\r\n\t\t\t\tif (count documents) = 0 then\r\n\t\t\t\t\tquit application \"Safari\"\r\n\t\t\t\tend if\r\n\t\t\tend tell\r\n\t\t\t\r\n\t\tend if\r\n\t\t\r\n\tend tell\r\nend openInChrome\r\n\r\non openInSafari()\r\n\ttell application \"Google Chrome\"\r\n\t\t\r\n\t\tif (count windows) ≠ 0 then\r\n\t\t\t\r\n\t\t\tset vURL to URL of active tab of window 1\r\n\t\t\t\r\n\t\t\tif vURL ≠ \"chrome://newtab/\" then\r\n\t\t\t\t\r\n\t\t\t\ttell application \"Safari\"\r\n\t\t\t\t\topen location vURL\r\n\t\t\t\t\tactivate\r\n\t\t\t\tend tell\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\ttell application \"Google Chrome\"\r\n\t\t\t\t\tclose active tab of window 1\r\n\t\t\t\t\tdelay 0.2\r\n\t\t\t\t\tif (count windows) = 0 then\r\n\t\t\t\t\t\tquit application \"Google Chrome\"\r\n\t\t\t\t\tend if\r\n\t\t\t\tend tell\r\n\t\t\t\t\r\n\t\t\tend if\r\n\t\t\t\r\n\t\tend if\r\n\t\t\r\n\tend tell\r\nend openInSafari\r\n\r\n-- Check if application is running\r\non appIsRunning(appName)\r\n\ttell application \"System Events\"\r\n\t\treturn (name of processes) contains appName\r\n\tend tell\r\nend appIsRunning\r\n \r\n-- Check if application is active and in front\r\non appIsInFront(appName)\r\n    tell application \"System Events\"\r\n        set theName to name of the first process whose frontmost is true\r\n    end tell\r\n    \r\n    return appName = theName\r\nend appIsInFront\r\n</pre> \r\n\r\nOh gee. It has been 3 months since the last post. I guess I have been busy. 😬",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "programming",
+    "applescript",
+    "alfred"
+  ]
+}

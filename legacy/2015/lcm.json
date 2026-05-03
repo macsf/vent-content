@@ -1,0 +1,18 @@
+{
+  "id": 4538,
+  "slug": "lcm",
+  "title": "Least Common Multiple",
+  "date": "2015-06-29T04:24:16.000Z",
+  "excerpt": "",
+  "content": "Yesterday, while sitting around having nothing to do, I saw a tweet mentioning the smallest number divisible by 1-10 is 2,520 (Mathematically, it's called Least Common Multiple - LCM). Since I have nothing to do, I think I'll try to write some code. \r\n\r\nI actually did this once but that was a long time ago. I tried it several ways and this one is the fastest.\r\n\r\n<pre class=\"lang:ruby title:test_lcm1\">\r\nrequire 'prime'\r\n\r\nrunning = 1\r\nfinished = false\r\n\r\nn = 20 # max number in range\r\n\r\nprime_in_range = (1..n).to_a.keep_if(&:prime?)\r\n\r\nuntil finished\r\n  if prime_in_range.take_while { |p| running % p == 0 }.length == prime_in_range.length\r\n\r\n    if (1..n).to_a.take_while { |i| running % i == 0 }.length == n\r\n      finished = true\r\n      break\r\n    end\r\n\r\n  end\r\n\r\n  running += 1\r\nend\r\n\r\np running\r\n</pre>\r\n\r\n<img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2015/06/test_lcm1.png\" alt=\"\" width=\"475\" height=\"47\" class=\"size-full wp-image-4544\" />\r\n\r\nMessy as it is, it works. (Side note: the code shows how long I've been away from writing.) Anyway, I look around after I'm happy with the code and I found this ...\r\n\r\n<pre class=\"lang:ruby title:test_lcm2\">\r\nn = 20 # max number in range\r\n\r\np (1..n).reduce(&:lcm)\r\n</pre>\r\n\r\n<img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2015/06/test_lcm2.png\" alt=\"\" width=\"475\" height=\"47\" class=\"size-full wp-image-4545\" />\r\n\r\nThat's it. One line. Functional. Whatever you want to call it. And it blew my code away. Haha. That was fun.\r\n\r\n**Addition:**\r\n\r\nI go back and look for it. Last time I did this was 3 years ago, Project [Euler #5](https://projecteuler.net/problem=5)\r\n\r\n<pre class=\"lang:c url:https://raw.githubusercontent.com/macsf/euler/master/005/005-1.c\">\r\n</pre>",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "coding",
+    "programming",
+    "ruby",
+    "lcm",
+    "nerdy life"
+  ]
+}

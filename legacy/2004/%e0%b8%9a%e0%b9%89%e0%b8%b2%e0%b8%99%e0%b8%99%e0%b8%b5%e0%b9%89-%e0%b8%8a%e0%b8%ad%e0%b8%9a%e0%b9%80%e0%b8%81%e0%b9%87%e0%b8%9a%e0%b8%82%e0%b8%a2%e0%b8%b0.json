@@ -1,0 +1,14 @@
+{
+  "id": 777,
+  "slug": "%e0%b8%9a%e0%b9%89%e0%b8%b2%e0%b8%99%e0%b8%99%e0%b8%b5%e0%b9%89-%e0%b8%8a%e0%b8%ad%e0%b8%9a%e0%b9%80%e0%b8%81%e0%b9%87%e0%b8%9a%e0%b8%82%e0%b8%a2%e0%b8%b0",
+  "title": "บ้านนี้ ชอบเก็บขยะ",
+  "date": "2004-10-05T10:24:25.000Z",
+  "excerpt": "",
+  "content": "คุณคนเขียนเคยเล่าให้ฟังว่า สำนักงานเขตดุสิต เค้าเอาถังขยะมาวางแถว ๆ ตลาดหน้าบ้าน จำได้ไหมครับ\n\n... แต่มันมีไอ้ถังเวรนี่มาตั้งอยู่แถว ๆ นี้ 1 ใบ มันมาตั้งอยู่ทำไม? ไม่ใช่ตลาดซะหน่อย หรือจะบอกว่า สนง เขต เค้าแจกมาให้ใช้ ก็ไม่ใช่ เพราะมันไม่ได้ถูกใช้ มันตั้งเกะกะอยู่ข้าง ๆ รถคุณคนเขียน\n\n!-/gallery/misc/trash_01.jpg!\n\n!-/gallery/misc/trash_02.jpg!\n\nสรุปได้อย่างเดียวว่า คุณนายข้างล่างเกิดอาการ **งก** ก็เลยไปหยิบของเค้ามาเก็บเอาไว้ %(me)เรียกว่า ขโมย ก็คงไม่ผิด% แล้วที่สังเกตเมื่อเช้านี้ก็เห็นว่า เหลือถังตั้งอยู่หน้าตลาดแค่ 1 ใบ!! ... หรือเค้าทำมาแจกเป็นที่ระลึก???\n\n!-/gallery/misc/trash_03.jpg!\n\nเรื่องความ งก นี่ก็แก้ไม่ได้ครับ คุณ ๆ คนอ่านสังเกตดูในรูปข้างบนครับ เห็นถังสีมะ เยอะแยะเลยหนะ แต่ละใบสีแห้งไปหมดแล้วหละ แต่ถ้าหยิบไปทิ้งก็จะโดนหยิบกลับมาวางที่เดิม เนื่องจาก[_เสียดายถัง_] เอาไว้ใช้อย่างอื่นได้ ... นี่ยังน้อยครับ วันหลังจะถ่ายรูป ขยะ ส่วนอื่นมาประจานอีก หุหุหุ (จำตู้เย็นเมื่อคราวนู้นนนน ได้ไหมครับ ทุกวันนี้คุณคนเขียนไม่เปิดมันแล้ว ไม่มีตู้เย็น ก็ไม่ใช้ตู้เย็น!)\n\n**ถ้ารถคุณคนเขียนเป็นรอยนะ จะโวยให้ได้ยินตั้งแต่หัวถนนสามเสนถึงทางด่วนพระราม 6 เลย คอยดูสิ ฮึ่ม**\n\nอ้อ .. สวัสดีครับ\n\n[ 5:45AM, next day ] In case you haven't noticed, there's a new feature called _sidethoughts_ going on in the, ummm, sidebar. It will show the latest 5 thoughts in the last 7 days (whichever is true!). If there's nothing new in a week, the _sidethoughts_ will disappear. :D\n\nAnd in case anybody wants to know, it was done by the following simple SQL statement.\n\nbc. SELECT * FROM tbox_sidethoughts WHERE status = 'show'\nAND stamp &gt; DATE_SUB(NOW(), INTERVAL 7 DAY)\nORDER BY stamp DESC LIMIT 0, 5\n\nVery simple indeed.\n\n[ 6:28AM ] On a completely non-related matter, I can't decide whether to use this (kubrik's default) blue or my recently picked orange. I like them both. --\"\n\n!-/gallery/misc/head_blue.jpg!\n\n!-/gallery/misc/head_orange.jpg!\n\nIn fact, I have quite a number of _can't decide_ issue at the moment. Such as to write a code for the photo blog feature or to use MT for that, etc etc. :P",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "rant"
+  ]
+}

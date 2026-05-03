@@ -1,0 +1,15 @@
+{
+  "id": 1088,
+  "slug": "internal-clock",
+  "title": "Internal Clock",
+  "date": "2007-03-19T17:46:15.000Z",
+  "excerpt": "",
+  "content": "If memory serves, I recall reading an article stating that everyone has an [internal clock](http://en.wikipedia.org/wiki/Circadian_rhythm) (and for your reading pleasure, via Wikipeidia). Yes, you and I have an alarm clock lodged somewhere inside our brain. This, so-called, clock has an auto-learning feature. It adapts itself according to our regular schedule.\n\nMy stupid (or too clever) inner-clock has learned the following routine.\n\n    if (sleep at/or after midnight) {\n      wake up at/around 5:20am\n      day count = day count + 1\n    } else if (sleep at/around 9pm) {\n      wake up at/around 12:30am\n    }\n\nNotice \"day count\"? That belongs to another routine which says :\n\n    if (day count > 6) {\n      while (sleep hour < 6) {\n        continue sleeping\n        sleep hour = sleep hour + 1\n      }\n    }\n\nThe second routine seems to fall into an infinite loop from time to time. I think I'll need to debug my clock. --\"\n\nWish you all a good night sleep - every night.",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "random thoughts",
+    "self talk"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": 872,
+  "slug": "1039-issue",
+  "title": "10.3.9 issue",
+  "date": "2005-04-05T10:37:44.000Z",
+  "excerpt": "",
+  "content": "Many people seem to be having problem with the latest OS X update. -I don't.- Anyway, Apple has finally posted \"instructions\":http://docs.info.apple.com/article.html?artnum=301380 to fix the problem. First, a quick test to verify the problem (excerpt from Apple KB):\n\n# Go to the Utilities folder inside your Applications folder.\n# Open Terminal.\n# Type: java -version\n# Press Return.\n\nIf you have no problem, you should see something similar to this:\n\nbc.. java version \"1.4.2_05\"\nJava(TM) 2 Runtime Environment, Standard Edition ...\nJava HotSpot(TM) Client VM (build 1.4.2-38, mixed mode)\n\np. With problem, this will show up:\n\nbc.. segmentation fault  java -version\n\np. Good luck. ;)\n\n*[ update 4/20 @ 12:24 AM]* I spoke too soon. My G5 was updated without a glitch but I have \"segmentation fault\" on my Powerbook. Fixing now. ;)\n\n*[ update @ 12:36 AM ]* After reapplying the Security Update 2005-002, everything works again.\n\nh3. Conclave\n\nกระบวนการคัดเลือกพระสันตะปาปาองค์ใหม่เริ่มต้นขึ้นเมื่อคืนนี้ครับ และถึงตอนนี้การเลือกได้ผ่านไปแล้วหนึ่งครั้ง ผลคือยังไม่มีใครที่ได้คะแนนเสียง 2 ใน 3 จากจำนวนพระคาร์ดินัลทั้งหมด 115 คน ควันที่ออกมาจากปล่องของ Sistine Chapel เป็นสีดำ ... การเลือกยังดำเนินต่อไปครับ\n\nh3. Sum up the news\n\nเรื่องลวนลามยามสงกรานต์ก็ยังมีให้เห็นกันอยู่ทั่วไปครับ ปีนี้เค้าก็ห้ามใส่เสื้อสายเดี่ยวไปเล่นสงกรานต์กัน แต่ผู้หญิงหลายคนก็ใช้วิธี ใส่เสื้อชั้นในสีเข้ม แล้วก็เอาเสื้อยืดสีขาวทับไว้ข้างนอก ส่วนอีกมุมหนึ่งก็มีข่าวว่า มีกระเทยไปลวนลามผู้ชายตามท้องถนนเหมือนกัน ... แปลกดี %(me)ไม่โทษใครนะครับ เล่าให้ฟังเฉย ๆ%\n\nหยุดยาวทุกครั้ง ต้องมีการทำสถิติประหลาด คือสถิติคนตาย ปีนี้สรุปแล้วก็ออกมาตีฆ้องร้องป่าวว่าตายน้อยลง ดีใจกันใหญ่ %(me)แต่ก็มีอีกหน่วยงานนึงตั้งข้อสงสัยว่า กดตัวเลขรึเปล่า ซึ่งเป็นข้อสงสัยเดียวกับคุณคนเขียนเหมือนกัน% ... ทั้งหมดนี้เป็นเพราะการรณรงค์ของรัฐบาลได้ผล? เพราะคนไปเที่ยวกันน้อยลง? หรือเพราะรถมันติดมากซะจนอุบัติเหตุที่เกิดขึ้นไม่รุนแรงถึงขั้นเสียชีวิต? (ยอดคนตายสูงสุดเกิดจาก มอเตอร์ไซค์ ครับ)\n\nตอนนี้กำลังมีความพยายามที่จะควบคุมการซื้อ SIM สำหรับโทรศัพท์มือถือในระบบเติมเงิน (pre-paid) เพราะ SIM ที่ว่าเป็นชิ้นส่วนสำคัญที่ผู้ก่อการฯ เอาไปทำระเบิด เค้าก็เสนอกันว่าเพื่อไม่ให้ละเมิดสิทธิ์ส่วนบุคคลมากนัก จดเอาแค่เบอร์ประจำตัว 13 หลัก (ตามบัตรประชาชน) มาก็พอ ... \"ไม่ละเมิดมากนัก\"??? ไอ้ 13 หลักที่ว่านั่นก็คือตัวแทนของคน ๆ นึงแล้วไม่ใช่เหรอ??? เอาเหอะ ก็ยังดีกว่าเอาแต่พูดว่า \"รู้แล้วววว ว่าใครทำ\" จนนี่ก็เกือบปีครึ่งผ่านไปแล้ว ยังจับใครไม่ได้สักคน --\"\n\nThat's it. Nothing much to talk about today and I can't discuss the projects I'm working on (as usual). Until next time.\n\nHave a nice day.",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "Apple"
+  ]
+}

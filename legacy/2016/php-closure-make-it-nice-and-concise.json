@@ -1,0 +1,16 @@
+{
+  "id": 4865,
+  "slug": "php-closure-make-it-nice-and-concise",
+  "title": "PHP Closure .. Make It Nice and Concise",
+  "date": "2016-10-05T07:35:59.000Z",
+  "excerpt": "",
+  "content": "So... With PHP Closure, I can do this. Nice and concise. \r\n\r\n<pre class=\"lang:php decode:true \" title=\"PHP Closure\" >function the_widgets_init()\r\n{\r\n    // register_sidebar([\r\n    //     // 'name' =&gt; __('Primary Sidebar', 'the'),\r\n    //     // 'id' =&gt; 'sidebar-1',\r\n    //     // 'before_widget' =&gt; '&lt;aside id=\"%1$s\" class=\"widget %2$s\"&gt;',\r\n    //     // 'after_widget' =&gt; '&lt;/aside&gt;',\r\n    //     // 'before_title' =&gt; '&lt;h1 class=\"widget-title\"&gt;',\r\n    //     // 'after_title' =&gt; '&lt;/h1&gt;'\r\n    // ]);\r\n\r\n    $_widget = function ($widget_name, $widget_id) {\r\n        return [\r\n            'name' =&gt; __($widget_name, 'the'),\r\n            'id' =&gt; $widget_id,\r\n            'before_widget' =&gt; '&lt;div id=\"%1$s\" class=\"panel panel-default widget %2$s\"&gt;&lt;div class=\"panel-body\"&gt;',\r\n            'after_widget' =&gt; '&lt;/div&gt;&lt;/div&gt;',\r\n            'before_title' =&gt; '&lt;h3 class=\"widget-title\"&gt;',\r\n            'after_title' =&gt; '&lt;/h3&gt;'\r\n        ];\r\n    };\r\n\r\n    register_sidebar($_widget('Information Block', 'info-block'));\r\n    register_sidebar($_widget('Guarantee', 'guarantee'));\r\n}</pre> \r\n",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "PHP",
+    "web",
+    "web development"
+  ]
+}

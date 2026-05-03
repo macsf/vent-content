@@ -1,0 +1,14 @@
+{
+  "id": 835,
+  "slug": "minor-changes",
+  "title": "Minor Changes",
+  "date": "2005-01-08T13:07:52.000Z",
+  "excerpt": "",
+  "content": "Okay, here comes the 2005 modification. Since v6 (this layout you're seeing) is relatively new (about 2 months old), I decided to do just minor changes. %(me)I think Honda do minor changes every 2 years. Ummm .. maybe my minor changes come too often.%\n\nAnyway, the obvious change is the color. I'm walking a different road this time. If you're one of the regulars, you may notice that I've never used _light color_ before. I think I did use white in v0.1 (the FIRST _diary_ version) and last 2 months when I first adopt Kubrick template (the default gray background). Other than that, this site has always been on the dark tone (not the dark side, mind you!) Also, this time it's not gray or blue or orange -- it's .. this color. %(me)Whatever it is. But if you really have to know, it's @#e4e3db@%\n\n... This one is an experiment. Say, I'm getting bolder with color. And if anything has gone wrong, I +can+ still say that \"I'm a just damn programmer, not a graphic designer!\" ;)\n\nSo anyway, here's the list of all **minor changes** made for Jan 2005:\n\n# \"Light color\" scheme - might look a bit pale on PC, hopefully not too pale\n# Extend header photo - +from 110px to 150px,+ so that I can play with it a little more\n# Redo the section title (aka logo) - include the site identity (macsf.net, that is) and change the _tagline_ font +to something NOT sans-serif+ (variety -- variety)\n# New favicon.ico - still not THE ONE yet but better than then previous \"M\" --\"\n# Several background code refinement\n\nI know .. I know. Everything looks almost the same. It's a **minor-changes**, isn't it.\n\nHave a good day~\n\nP.S. Jaam, your blog is totally inaccessible to me (or to True's network). Nothing much, just an FYI -- well, maybe a little bad-mouthing about the **network provider**. Since they're so good at expanding the customer-base and  **degrading** the service at the same time. --\"",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "inside macsf.net"
+  ]
+}

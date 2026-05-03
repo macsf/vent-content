@@ -1,0 +1,16 @@
+{
+  "id": 4585,
+  "slug": "slow-vim-help-lookup",
+  "title": "Slow VIM help lookup",
+  "date": "2015-11-28T04:57:00.000Z",
+  "excerpt": "",
+  "content": "Lately (I think) VIM helps load very slowly during the _first_ lookup. But it only happens at the first lookup, I just ignored it since I was usually in the middle of doing something else.\r\n\r\nAnyway, I had a look at my `vimrc` last night and tracked down the cause.\r\n\r\n<pre class=\"viml\">\r\nautocmd BufRead,BufNewFile README,TODO,*.md,*.txt setlocal filetype=markdown\r\n</pre>\r\n\r\nRemove this and the lag was gone. Hmmm.",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "vim",
+    "nerdy life",
+    "slow"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": 2607,
+  "slug": "215122379",
+  "title": "",
+  "date": "2009-10-16T17:58:00.000Z",
+  "excerpt": "",
+  "content": "![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/tumblr/tumblr_krmw14AgJt1qzwi7fo1_r1_500.gif)\n\nPanic Chronicle / 2009-10-17\n\nMy attempt to solve the panic issue has failed. Even after clean installing of Snow Leopard with minimal set of 3rd-party software, the latest panic came when I wake up the machine this morning (that's 10 minutes ago). Could it be a hardware issue?\n\nFound more info regarding `pmap.c` ...\n\n`*\tRemove a range of hardware page-table entries.`\n`*\tThe entries given are the first (inclusive)`\n`*\tand last (exclusive) entries for the VM pages.`\n\n(I don't know whether \"unloaded kexts\" has anything to do with this either.)\n\n`unloaded kexts:`\n`com.apple.driver.AppleHIDKeyboard\t1.1.5f1`",
+  "categories": [
+    "Photo"
+  ],
+  "tags": [
+    "kernel panic",
+    "panic chronicle",
+    "pmap_remove_range",
+    "snow leopard"
+  ]
+}

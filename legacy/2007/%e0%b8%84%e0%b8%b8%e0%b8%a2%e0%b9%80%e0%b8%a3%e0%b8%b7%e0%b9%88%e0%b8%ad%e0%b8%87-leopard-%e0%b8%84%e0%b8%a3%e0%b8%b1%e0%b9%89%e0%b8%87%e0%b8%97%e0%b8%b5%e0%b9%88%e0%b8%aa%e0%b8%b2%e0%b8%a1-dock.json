@@ -1,0 +1,18 @@
+{
+  "id": 1228,
+  "slug": "%e0%b8%84%e0%b8%b8%e0%b8%a2%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87-leopard-%e0%b8%84%e0%b8%a3%e0%b8%b1%e0%b9%89%e0%b8%87%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%aa%e0%b8%b2%e0%b8%a1-dock",
+  "title": "คุยเรื่อง Leopard ครั้งที่สาม - Dock",
+  "date": "2007-10-29T07:13:47.000Z",
+  "excerpt": "",
+  "content": "คุณคนเขียนประกาศไปเมื่อ entry ที่แล้วว่า **คุณคนเขียนชอบ Dock อันใหม่มาก!** แต่ก็ไม่ได้แปลว่าคุณคนเขียนไม่มีเรื่องให้บ่นนะครับ\n\nคุณคนเขียนไม่ชอบส่วนของ active program indicator ที่เมื่อก่อนเคยเป็นรูปสามเหลี่ยมเล็ก ๆ สีดำ ๆ แต่ใน Leopard มันกลายเป็นก้อน ๆ สีฟ้า ๆ แล้วพอไปเจอกับ backgroup รูปอวกาศที่มีดาวเต็มไปหมด มันทำให้งงได้เล็กน้อยในตอนแรก ๆ\n\n<!--more-->\n\n![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2007/10/leopard/14.jpg)\n\nแต่ปัญหาไม่ได้หมดแค่นั้น ด้วยความที่คุณคนเขียนนิยมที่จำทำให้ Dock มีขนาดเล็กม๊ากกกมาก ทีนี้อะไรต่อมิอะไรมันก็เลยพาลเล็กกันไปหมดเลย แล้วไอ้ก้อน ๆ ฟ้า ๆ มันก็เลยกลายเป็น \"จุด\" ไปซะ\n\n![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2007/10/leopard/15.jpg)\n\nบ่นนิด ๆ หน่อย ๆ ... แต่ก็ยังชอบอยู่ครับ :)\n\n... อย่างกับว่างงาน มานั่ง review software ซะงั้น --\"\n\nเพิ่มเติม: คุณคนเขียนลืมพูดถึงอีกเรื่องนึงครับ โดยปกติ Dock ของ OS X ถูกวางอยูที่ด้านล่างของจอ (เหมือนรูปด้านบน) แต่ผู้ใช้สามารถย้ายไปวางด้านซ้าย หรือด้านขวาของจอก็ได้ (อันที่จริงแล้วมี setting มากกว่านี้ แต่คุณคนเขียนเล่าเฉพาะค่าที่ OS กำหนดมาครับ) ก่อนหน้าที่ Leopard จะวางขายเป็นทางการ ถ้าผู้ใช้ย้าย Dock ไปวางทางด้านซ้าย หรือด้านขวา รูปแบบของ 3D ก็ยังตามติด \"พื้น\" ของ Dock ไปด้วย เพราะฉะนั้นก็จะกลายเป็น icon ที่วางอยู่บน \"กำแพง\" เอียง ๆ ... เค้าว่ากันว่ามันดูตลกพิลึก (ภาษาอาคิเทค คงจะอยู่ประมาณว่า เพอสะเป๊กถึบมันหลอกลวง)\n\nใน release version เค้าก็เลยเปลี่ยน Dock ด้านซ้าย/ขวาเป็นคล้าย ๆ กับของเก่า แต่เพิ่ม \"กรอบ\" ขึ้นมา\n\n![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2007/10/leopard/16.jpg)\n\nทำให้คุณคนเขียนมั่นใจว่า **เอา Dock ไว้ด้านล่างดีที่สุด** ... ทำเป็นแบบเก่ายังดูดีกว่า คุณคนเขียนเห็นว่างั้น\n\nAddition: As expected, someone managed to hack the Dock and [get the triangle thing back](http://www.silvermac.com/2007/leopard-dock-with-black-triangle/) -- via [TUAW](http://www.tuaw.com/2007/10/30/triangles-back-on-the-leopard-dock/). It's just a matter of time, I suppose. But even though I don't like the blue orb thing, I'll stick with that. Well, I'm just difficult to please. :P",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "Apple",
+    "dock",
+    "impression",
+    "leopard",
+    "mac os x"
+  ]
+}

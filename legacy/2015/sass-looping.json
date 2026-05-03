@@ -1,0 +1,17 @@
+{
+  "id": 4409,
+  "slug": "sass-looping",
+  "title": "Sass Looping",
+  "date": "2015-03-11T00:33:54.000Z",
+  "excerpt": "",
+  "content": "I have to blog this down.\r\n \r\n<pre class=\"lang:sass decode:true\">$slugs: \"xs\", \"sm\", \"md\", \"lg\";\r\n \r\nbody {\r\n  &.debug {\r\n\r\n    @for $i from 0 through 12 {\r\n      .col-#{$i} {\r\n        background: darken(#fefefe, $i);\r\n      }\r\n\r\n      @each $slug in $slugs {\r\n\r\n        .col-#{$slug}-#{$i} {\r\n          @extend .col-#{$i};\r\n        }\r\n      }\r\n\r\n    }\r\n\r\n  }\r\n}</pre> \r\n\r\n... will compile to \r\n\r\n<pre class=\"lang:css decode:true\">body.debug .col-0, body.debug .col-xs-0, body.debug .col-sm-0, body.debug .col-md-0, body.debug .col-lg-0 {\r\n  background: #fefefe;\r\n}\r\nbody.debug .col-1, body.debug .col-xs-1, body.debug .col-sm-1, body.debug .col-md-1, body.debug .col-lg-1 {\r\n  background: #fbfbfb;\r\n}\r\nbody.debug .col-2, body.debug .col-xs-2, body.debug .col-sm-2, body.debug .col-md-2, body.debug .col-lg-2 {\r\n  background: #f9f9f9;\r\n}\r\nbody.debug .col-3, body.debug .col-xs-3, body.debug .col-sm-3, body.debug .col-md-3, body.debug .col-lg-3 {\r\n  background: #f6f6f6;\r\n}\r\nbody.debug .col-4, body.debug .col-xs-4, body.debug .col-sm-4, body.debug .col-md-4, body.debug .col-lg-4 {\r\n  background: #f4f4f4;\r\n}\r\nbody.debug .col-5, body.debug .col-xs-5, body.debug .col-sm-5, body.debug .col-md-5, body.debug .col-lg-5 {\r\n  background: #f1f1f1;\r\n}\r\nbody.debug .col-6, body.debug .col-xs-6, body.debug .col-sm-6, body.debug .col-md-6, body.debug .col-lg-6 {\r\n  background: #efefef;\r\n}\r\nbody.debug .col-7, body.debug .col-xs-7, body.debug .col-sm-7, body.debug .col-md-7, body.debug .col-lg-7 {\r\n  background: #ececec;\r\n}\r\nbody.debug .col-8, body.debug .col-xs-8, body.debug .col-sm-8, body.debug .col-md-8, body.debug .col-lg-8 {\r\n  background: #eaeaea;\r\n}\r\nbody.debug .col-9, body.debug .col-xs-9, body.debug .col-sm-9, body.debug .col-md-9, body.debug .col-lg-9 {\r\n  background: #e7e7e7;\r\n}\r\nbody.debug .col-10, body.debug .col-xs-10, body.debug .col-sm-10, body.debug .col-md-10, body.debug .col-lg-10 {\r\n  background: #e5e5e5;\r\n}\r\nbody.debug .col-11, body.debug .col-xs-11, body.debug .col-sm-11, body.debug .col-md-11, body.debug .col-lg-11 {\r\n  background: #e2e2e2;\r\n}\r\nbody.debug .col-12, body.debug .col-xs-12, body.debug .col-sm-12, body.debug .col-md-12, body.debug .col-lg-12 {\r\n  background: #dfdfdf;\r\n}</pre>\r\n\r\nWay cool.",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "css",
+    "web development",
+    "sass",
+    "stylesheet"
+  ]
+}

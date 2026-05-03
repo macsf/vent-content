@@ -1,0 +1,14 @@
+{
+  "id": 1270,
+  "slug": "waste-of-time",
+  "title": "Waste of Time",
+  "date": "2008-01-17T23:44:53.000Z",
+  "excerpt": "",
+  "content": "อุปกรณ์ชิ้นใหม่อีกหนึ่งอย่างที่เปิดตัวในงาน Macworld 2008 คือ [Time Capsule](http://www.apple.com/timecapsule/) ครับ\n\nTime Capsule เป็นอุปกรณ์ที่รวมระบบ wireless network เข้ากับอุปกรณ์จัดเก็บข้อมูลภายนอก (external hard drive) เน้นการใช้งานร่วมกับโปรแกรม [Time Machine](/breadcrumb/2007/10/27/1225/) บน Mac OS X 10.5 (Leopard) ซึ่งคุณคนเขียน[ได้เล่าให้คุณ ๆ ฟัง](/breadcrumb/2007/10/28/1226/)กันไปแล้วครั้งหนึ่ง\n\nโดยปกติแล้ว Time Machine ทำหน้าที่ backup ข้อมูลภายในเครื่องคอมพิวเตอร์ โดยจัดเก็บข้อมูลไปที่ external hard drive ที่ต่ออยู่กับเครื่องคอมพิวเตอร์ ทีนี้คุณคนเขียนใช้โน๊ตบุ๊ค ไอ้เจ้าฮาร์ดดิสก์นี่ก็มักจะถูกถอดเข้าถอดออกอยู่ตลอดเวลา มันก็เลยทำให้การ backup ข้อมูลไม่ต่อเนื่อง\n\nTime Capsule เข้ามาปิดช่องว่าเพราะทำให้โปรแกรม Time Machine สามารถ backup ข้อมูลผ่านทาง wireless network ได้ ... เป็นแนวคิดที่น่าสนใจครับ\n\nแต่มันมีคำถามอยู่ว่า ในเมื่อ Time Capsule เป็น [Airport Extreme](http://www.apple.com/airportextreme/) ที่มี hard drive แล้วทำไมไม่ทำ Airport Extreme ที่มี USB input และสามารถต่อ external hard drive ได้อยู่แล้ว ให้ใช้งานกับ Time Machine ได้ด้วยหละ?\n\n... หรือว่าต้องซื้อ wireless hub อีกอันเพื่อการนี้โดยเฉพาะ???\n\nถ้าหากว่ายังไม่มี Airport Extreme หรือคิดว่าซื้อ Time Capsule เพื่อจะได้ hard drive ขนาดมหึมาพอควร ... น่าสนใจครับ\n\nนอกนั้น ... **Time Capsule ไม่น่าซื้อ** ... คุณคนเขียนเห็นว่างั้นครับ\n\nสวัสดีครับ",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "Apple"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": 5550,
+  "slug": "no-1433-for-streamlit-cloud",
+  "title": "No 1433 for Streamlit Cloud?",
+  "date": "2024-05-06T03:40:59.000Z",
+  "excerpt": "",
+  "content": "<!-- wp:paragraph -->\n<p>OK. I have to post about this.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>I have spent 2 days figuring out why my Streamlit code does not connect to SQL Server. The code works fine on local machine and on my <a href=\"https://m.do.co/c/f9448720bfcc\" data-type=\"link\" data-id=\"https://m.do.co/c/f9448720bfcc\">DO</a> test droplet. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Always thought that the problem caused by <code>pyodbc</code> but I manage to scope the problem down to <strong>port</strong>. </p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Cut to the chase.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Streamlit Cloud does not like <code>1433</code>, the standard SQL Server port. Add a new listening port and the code just work. There is not mention of this in the <a href=\"https://docs.streamlit.io/develop/tutorials/databases/mssql\">documentation</a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>I might be wrong, but it works for me so there's that. </p>\n<!-- /wp:paragraph -->",
+  "categories": [
+    "General"
+  ],
+  "tags": [
+    "programming",
+    "python",
+    "mssql",
+    "sqlserver",
+    "streamlit",
+    "streamlit cloud",
+    "sql server"
+  ]
+}

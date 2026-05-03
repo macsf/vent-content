@@ -1,0 +1,14 @@
+{
+  "id": 673,
+  "slug": "blogging-system",
+  "title": "Blogging System",
+  "date": "2003-12-01T06:57:08.000Z",
+  "excerpt": "",
+  "content": "After a short discussion brought up by  \"พี่หมี\":http://www.sapolar.com  a couple days ago, I began my quest for  **The Blog** .\n\n **The Blog**  in this context means a relatively easy to use blogging system (interface) with an easy way of making and changing the templates (layout, style, theme or whatever you want to call it). I came across several interesting applications however they don't really fit into my requirements.\n\n \"MT 2.64\":http://www.movabletype.org   %(rem)(Perl/Berkeley DB (file) or Perl/MySQL)%  has a very nice blog entry organizing backend however the templating requires some learning. Also, I don't like it when the system stores HTML files on the server. It consumes more and more space as the blog grows.  %(me)Actually, it consumes both database space and disk space.%  ... There's one good point though, search engines love it.\n\n \"pMachineFree 2.3\":http://www.pmachine.com   %(rem)(PHP/MySQL)%  looks very promising. However, the system is somewhat overkilled.\n\n \"WordPress .72\":http://wordpress.org   %(rem)(PHP/MySQL)%  is nice but I don't think it's built with international language in mind. The backend is coded with iso-8859-1 charset and Georgia as the font for the interface. ... Too many changes to make, too lazy to do. I hope there'll be some changes in the upcoming version (.80). Also heard that they'll add  \"Smarty\":http://smarty.php.net .\n\nI'm not going to talk about  \"GM\":http://www.noahgrey.com/greysoft/ . I'm not a big fan of the software. :)\n\nAs for my own code, I love it but it's not very \"portable\". It's more like a customized software.  %(rem)Meaning: everything is tying to each other.%  So there's nothing to show-off about.  %(me)But it does the job very well!%\n\nFinally, I try thing the unusual way -- MT + Smarty  %(rem)certainly with PHP% . I've seen other people doing MT + Smarty in the past but most of them use Smarty to render static pages, i.e. still relying on MT to rebuild the pages and also consume disk space. I don't like that. So I came up with version of my own, using PHP/Smarty to render the page dynamically (per request). It's an early alpha now and I kinda like it already. The templating is kinda easy too (I think).\n\nWho knows, I might completely ditch my own code and convert to MT-PHP. :)",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "weaving the web"
+  ]
+}

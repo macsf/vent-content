@@ -1,0 +1,15 @@
+{
+  "id": 1675,
+  "slug": "message-to-bbl",
+  "title": "Message to BBL",
+  "date": "2009-01-07T07:34:24.000Z",
+  "excerpt": "",
+  "content": "คุณคนเขียนพยายามส่งข้อความผ่านระบบ iBanking ของธนาคารกรุงเทพ เพื่อแจ้งให้ทางธนาคารทราบถึงการใช้งาน โดยคุณคนเขียนส่งข้อความดังนี้\n\n> It would be better if iBanking would also support something else other than Microsoft Internet Explorer. It is an inconvenience for customers who are not using Windows machine to use the service.\n\n> If security is the concern, other browsers have proven to be more secure.\n\n<img src=\"https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/2009/01/ibanking_ieonly1.png\" alt=\"ibanking_ieonly\" title=\"ibanking_ieonly\" width=\"425\" height=\"232\" class=\"aligncenter size-full wp-image-1676\" />\n\nหลังจากกดส่งแล้ว คุณคนเขียนได้รับ error message ว่า ข้อความของคุณคนเขียนส่งไม่สำเร็จ เหตุเพราะว่ามี \"special characters\" คุณคนเขียนก็เลยไปเดินหาที่เว๊บไซต์ของธนาคาร แล้วก็ส่งข้อความเพิ่มเติมไปด้วยว่า\n\n> Another issue, I tried to send the above message through iBanking's \"Send A Message\" page. However, I have received the following error message.\n\n> Description error - special characters (\" % ; : , * ( ) < > & | + -- =) are not accepted.\n\n> There was no \"special characters\" in my message.\n\nใช้บริการ iBanking มาตั้งแต่เริ่มแรก เพิ่งได้มีโอกาส complain ... :)\n\nUPDATE: I have found the \"special characters\", it is the **comma**. So iBanking form cannot digest a comma. It is my fault on the second issue then. :)",
+  "categories": [
+    "Breadcrumb"
+  ],
+  "tags": [
+    "rant",
+    "self talk"
+  ]
+}

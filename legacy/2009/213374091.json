@@ -1,0 +1,17 @@
+{
+  "id": 2608,
+  "slug": "213374091",
+  "title": "",
+  "date": "2009-10-14T19:13:00.000Z",
+  "excerpt": "",
+  "content": "![](https://macsfvent.sgp1.cdn.digitaloceanspaces.com/media/tumblr/tumblr_krja6k2RaS1qzwi7fo1_500.gif)\n\nPanic Chronicle / 2009-10-14\n\nIt happens when I'm about to move the mouse to close the applications and get ready to go home yesterday afternoon. And that was the last straw. Did a clean install once again last night. -\"-\n\n`unloaded kexts:`\n`com.apple.driver.AppleUSBDisplays\t2.1`",
+  "categories": [
+    "Photo"
+  ],
+  "tags": [
+    "kernel panic",
+    "panic chronicle",
+    "pmap_remove_range",
+    "snow leopard"
+  ]
+}
