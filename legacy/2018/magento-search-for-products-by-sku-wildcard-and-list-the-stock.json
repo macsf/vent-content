@@ -4,7 +4,7 @@
   "title": "Magento : Search for products by SKU (wildcard) and list the stock",
   "date": "2018-02-06T15:27:32.000Z",
   "excerpt": "",
-  "content": "<pre class=\"lang:default decode:true \" title=\"Magento : Search for products by SKU (wildcard) and list the stock\" data-url=\"https://gist.githubusercontent.com/macsf/bb58f7d0be05352af1b78fc1c49a2acf/raw/07980855be3ce4115014a90e7613507f4eafbaec/magento-sku-search-get-stock.php\"></pre>\r\n&nbsp;",
+  "content": "<pre class=\"lang:php decode:true \" title=\"Magento : Search for products by SKU (wildcard) and list the stock\">&lt;?php\n$soap_url = 'http://magento.url/index.php/api/v2_soap?wsdl';\n\n$client = new SoapClient($soap_url);\n$session = $client-&gt;login('api_user', 'api_key');\n\n$sku = 'msj006c';\n$filter = [\n    'complex_filter' =&gt; [\n        [\n            'key' =&gt; 'sku',\n            'value' =&gt; ['key' =&gt; 'like', 'value' =&gt; \"%{$sku}%\"]\n            ]\n        ]\n    ];\n\n\n$products = $client-&gt;catalogProductList($session, $filter);\n$skus = object_key_search('sku', $products);\n\n$stocks = $client-&gt;catalogInventoryStockItemList($session, $skus);\n\nvar_dump($stocks);\n\n// ---\n\nfunction object_key_search($needle, $haystack)\n{\n    $needle_values = [];\n    foreach ($haystack as $item) {\n        if (array_key_exists($needle, $item)) {\n            $needle_values[] = $item-&gt;$needle;\n        }\n    }\n\n    return $needle_values;\n}</pre>\r\n&nbsp;",
   "categories": [
     "General"
   ],
